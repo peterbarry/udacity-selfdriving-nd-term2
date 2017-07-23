@@ -49,6 +49,14 @@ FusionEKF::~FusionEKF() {}
 
 void FusionEKF::ProcessMeasurement(const MeasurementPackage &measurement_pack) {
 
+  cout << "EKF: Process Measurement " << endl;
+  if (measurement_pack.sensor_type_ == MeasurementPackage::RADAR) {
+    cout << "Radar Measurement skipping" << endl;
+    return;
+  }
+  else if (measurement_pack.sensor_type_ == MeasurementPackage::LASER) {
+    cout << "LASER Measurement" << endl;
+  }
 
   /*****************************************************************************
    *  Initialization
@@ -62,9 +70,22 @@ void FusionEKF::ProcessMeasurement(const MeasurementPackage &measurement_pack) {
     */
     // first measurement
 
-    cout << "EKF: " << endl;
+    cout << "EKF: Initialize " << endl;
     ekf_.x_ = VectorXd(4);
     ekf_.x_ << 1, 1, 1, 1;
+      
+    //state covariance matrix P
+    ekf_.P_ = MatrixXd(4, 4);
+    ekf_.P_ << 1, 0, 0, 0,
+      0, 1, 0, 0,
+      0, 0, 1000, 0,
+      0, 0, 0, 1000;
+      
+      
+    //measurement covariance
+    ekf_.R_ = MatrixXd(2, 2);
+    ekf_.R_ << 0.0225, 0,
+      0, 0.0225;
 
     if (measurement_pack.sensor_type_ == MeasurementPackage::RADAR) {
       /**
@@ -82,7 +103,19 @@ void FusionEKF::ProcessMeasurement(const MeasurementPackage &measurement_pack) {
       ekf_.x_ << measurement_pack.raw_measurements_[0], measurement_pack.raw_measurements_[1], 0, 0;
       previous_timestamp_ = measurement_pack.timestamp_;
     }
-
+      
+    ekf_.F_ = MatrixXd(4, 4);
+    ekf_.F_ << 1, 0, 1, 0,
+               0, 1, 0, 1,
+               0, 0, 1, 0,
+               0, 0, 0, 1;
+      
+      //measurement matrix
+    ekf_.H_ = MatrixXd(2, 4);
+    ekf_.H_ << 1, 0, 0, 0,
+      0, 1, 0, 0;
+      
+      
     // done initializing, no need to predict or update
     is_initialized_ = true;
     return;
@@ -137,7 +170,8 @@ void FusionEKF::ProcessMeasurement(const MeasurementPackage &measurement_pack) {
 
   if (measurement_pack.sensor_type_ == MeasurementPackage::RADAR) {
     // Radar updates
-    cout << "Ignore radar measument" << endl ;
+    ekf_.UpdateEKF(measurement_pack.raw_measurements_);
+
   } else {
     // Laser updates
     ekf_.Update(measurement_pack.raw_measurements_);

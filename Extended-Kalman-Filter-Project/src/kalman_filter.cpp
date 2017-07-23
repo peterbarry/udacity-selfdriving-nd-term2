@@ -1,8 +1,11 @@
+#include <iostream>
+using namespace std;
+
 #include "kalman_filter.h"
 
 using Eigen::MatrixXd;
 using Eigen::VectorXd;
-
+ 
 KalmanFilter::KalmanFilter() {}
 
 KalmanFilter::~KalmanFilter() {}
@@ -56,4 +59,6 @@ void KalmanFilter::UpdateEKF(const VectorXd &z) {
   TODO:
     * update the state by using Extended Kalman Filter equations
   */
+  cout << "Ignore radar measument" << endl ;
+
 }
