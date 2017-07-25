@@ -60,9 +60,11 @@ void FusionEKF::ProcessMeasurement(const MeasurementPackage &measurement_pack) {
   cout << "EKF: Process Measurement " << endl;
   if (measurement_pack.sensor_type_ == MeasurementPackage::RADAR) {
     cout << "Radar Measurement" << endl;
+      
   }
   else if (measurement_pack.sensor_type_ == MeasurementPackage::LASER) {
     cout << "LASER Measurement" << endl;
+      
   }
 
   /*****************************************************************************
