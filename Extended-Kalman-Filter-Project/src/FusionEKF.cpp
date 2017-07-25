@@ -36,6 +36,14 @@ FusionEKF::FusionEKF() {
     * Finish initializing the FusionEKF.
     * Set the process and measurement noises
   */
+
+  H_laser_ << 1, 0, 0, 0,
+                0, 1, 0, 0;
+    
+  Hj_ <<  1, 1, 0, 0,
+            1, 1, 0, 0,
+            1, 1, 1, 1;
+  
   noise_ax = 9 ;
   noise_ay = 9 ;
 
@@ -51,8 +59,7 @@ void FusionEKF::ProcessMeasurement(const MeasurementPackage &measurement_pack) {
 
   cout << "EKF: Process Measurement " << endl;
   if (measurement_pack.sensor_type_ == MeasurementPackage::RADAR) {
-    cout << "Radar Measurement skipping" << endl;
-    return;
+    cout << "Radar Measurement" << endl;
   }
   else if (measurement_pack.sensor_type_ == MeasurementPackage::LASER) {
     cout << "LASER Measurement" << endl;
@@ -92,7 +99,23 @@ void FusionEKF::ProcessMeasurement(const MeasurementPackage &measurement_pack) {
       Convert radar from polar to cartesian coordinates and initialize state.
       */
       // TODO - peter add this one after.
-      cout << "ERROR!! we have not setup case for radar measumenet first" << endl;
+        float rho,phi,rhodot;
+        float x,y,velx,vely;
+    
+            /**
+             Convert radar from polar to cartesian coordinates and initialize state.
+             */
+            rho = measurement_pack.raw_measurements_[0]; // range
+            phi = measurement_pack.raw_measurements_[1]; // bearing
+            rhodot = measurement_pack.raw_measurements_[2]; // velocity of rho
+    
+            // Coordinates convertion from polar to cartesian
+            x = rho * cos(phi);
+            y = rho * sin(phi);
+            velx = rhodot * cos(phi);
+            vely = rhodot * sin(phi);
+            ekf_.x_ << x, y, velx , vely;
+            previous_timestamp_ = measurement_pack.timestamp_;
 
     }
     else if (measurement_pack.sensor_type_ == MeasurementPackage::LASER) {
@@ -170,10 +193,16 @@ void FusionEKF::ProcessMeasurement(const MeasurementPackage &measurement_pack) {
 
   if (measurement_pack.sensor_type_ == MeasurementPackage::RADAR) {
     // Radar updates
+      
+    Hj_ = tools.CalculateJacobian(ekf_.x_);
+    ekf_.H_ = Hj_;
+    ekf_.R_ = R_radar_;
     ekf_.UpdateEKF(measurement_pack.raw_measurements_);
 
   } else {
     // Laser updates
+    ekf_.H_ = H_laser_;
+    ekf_.R_ = R_laser_;
     ekf_.Update(measurement_pack.raw_measurements_);
   }
 
