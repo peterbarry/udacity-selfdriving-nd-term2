@@ -10,6 +10,7 @@
 using Eigen::MatrixXd;
 using Eigen::VectorXd;
 
+
 class UKF {
 public:
 
@@ -36,6 +37,15 @@ public:
 
   ///* Weights of sigma points
   VectorXd weights_;
+
+  ///* Measurement noise covariance matrices initialization
+  MatrixXd R_radar_;
+  MatrixXd R_lidar_;
+
+  Matrix Zsig_;
+
+
+  float previous_timestamp_;
 
   ///* time when the state is true, in us
   long long time_us_;
@@ -111,6 +121,18 @@ public:
    * @param meas_package The measurement at k+1
    */
   void UpdateRadar(MeasurementPackage meas_package);
+
+  /**
+   * Generate Augmented Sigma Points.
+   * @none
+   * Updates:Xsig_aug_
+   */
+  void GenerateAugmentedSigmaPoints(void);
+
+  void PredictSigmaPoints(double delta_t) ;
+
+  void PredictMeanAndCovariance() ;
+
 };
 
 #endif /* UKF_H */
