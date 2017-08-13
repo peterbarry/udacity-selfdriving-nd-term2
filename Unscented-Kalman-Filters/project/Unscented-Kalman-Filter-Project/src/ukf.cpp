@@ -31,7 +31,7 @@ UKF::UKF() {
   x_ = VectorXd(n_x_);
 
   // initial covariance matrix
-  P_ = MatrixXd(n_x_, n_x_
+  P_ = MatrixXd(n_x_, n_x_);
     // Start P_ with identity  matric.
 
   P_ <<     1,    0,    0,    0,    0,
@@ -45,19 +45,19 @@ UKF::UKF() {
   Xsig_pred_ = MatrixXd(n_x_, 2 * n_aug_ + 1);
 
   //create sigma point matrix TODO: Needed ? reused from class.
-  Xsig_aug_ = MatrixXd(n_aug, 2 * n_aug + 1);
+  Xsig_aug_ = MatrixXd(n_aug_, 2 * n_aug_ + 1);
 
   ///* time when the state is true, in us
   time_us_ = 0;
 
 
   ///* Sigma point spreading parameter
-  double lambda_= = 3 - n_aug_;;
+  double lambda_= 3 - n_aug_;
 
   ///* Weights of sigma points - reused from class.
   weights_ = VectorXd(2*n_aug_+1);
   double weight_0 = lambda_/(lambda_+n_aug_);
-  weights(0) = weight_0;
+  weights_(0) = weight_0;
   for (int i=1; i<2*n_aug_+1; i++) {
     double weight = 0.5/(n_aug_+lambda_);
     weights_(i) = weight;
