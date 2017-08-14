@@ -28,6 +28,8 @@ public:
 
   ///* state covariance matrix
   MatrixXd P_;
+  //measurement covariance matrix S
+  MatrixXd S_;
 
   ///* predicted sigma points matrix
   MatrixXd Xsig_pred_;
@@ -38,11 +40,14 @@ public:
   ///* Weights of sigma points
   VectorXd weights_;
 
+  //* Predicted measurement state
+  VectorXd z_pred_ ;
+
   ///* Measurement noise covariance matrices initialization
   MatrixXd R_radar_;
   MatrixXd R_lidar_;
 
-  MatrixXd Zsig_;
+  MatrixXd Zsig_ ;
 
 
   float previous_timestamp_;
@@ -109,6 +114,9 @@ public:
    * @param delta_t Time between k and k+1 in s
    */
   void Prediction(double delta_t);
+
+  void PredictSensor(MeasurementPackage meas_package);
+
 
   /**
    * Updates the state and the state covariance matrix using a laser measurement
