@@ -316,11 +316,11 @@ void UKF::GenerateAugmentedSigmaPoints() {
 
   //create augmented state covariance
 
-  MatrixXd P_augmented = MatrixXd(n_aug_, n_aug_);
-  P_augmented.fill(0.0);
-  P_augmented.topLeftCorner(n_x_,n_x_) = P_;
-  P_augmented(5,5) = std_a_ * std_a_;
-  P_augmented(6,6) = std_yawdd_ * std_yawdd_;
+  MatrixXd P_aug = MatrixXd(n_aug_, n_aug_);
+  P_aug.fill(0.0);
+  P_aug.topLeftCorner(n_x_,n_x_) = P_;
+  P_aug(5,5) = std_a_ * std_a_;
+  P_aug(6,6) = std_yawdd_ * std_yawdd_;
 
   //create square root matrix
   MatrixXd L = P_aug.llt().matrixL();
