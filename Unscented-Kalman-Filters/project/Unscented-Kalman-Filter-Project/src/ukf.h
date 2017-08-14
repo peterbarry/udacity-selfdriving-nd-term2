@@ -42,7 +42,7 @@ public:
   MatrixXd R_radar_;
   MatrixXd R_lidar_;
 
-  Matrix Zsig_;
+  MatrixXd Zsig_;
 
 
   float previous_timestamp_;
