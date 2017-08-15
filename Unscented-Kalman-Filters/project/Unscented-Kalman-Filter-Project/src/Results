@@ -1,0 +1,38 @@
+
+
+****************************************************
+Unscented Kalman filter
+Sim Data Set 1 Both Radar and Lidar
+RMSE
+X 0.0685
+Y 0.0826
+VX 0.3364
+VY 0.2183
+Radar NIS, 4.41767%,Over threshold
+Lidar NIS, 3.21285%,Over threshold
+****************************************************
+Unscented Kalman filter
+Sim Data Set 1  Lidar only
+RMSE
+X 0.1696
+Y 0.1472
+VX 0.6153
+VY 0.2388
+Lidar NIS, 4.81928%,Over threshold
+****************************************************
+Unscented Kalman filter
+Sim Data Set 1  Radar only
+RMSE
+X 0.2132
+Y 0.2121
+VX 0.3668
+VY 0.2610
+Radar NIS, 5.62249%,Over threshold
+****************************************************
+Previous Proect Submission _ Extended Kalman filter
+Sim Data Set 1 Both Radar and Lidar
+RMSE
+X 0.0973
+Y 0.0855
+VX 0.4513
+VY 0.4388

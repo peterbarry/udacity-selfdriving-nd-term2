@@ -71,11 +71,11 @@ UKF::UKF() {
   // Process noise standard deviation longitudinal acceleration in m/s^2
 
   // too high for a bike std_a_ = 30;
-  std_a_ = 0.3; //TODO: tune this value.
+  std_a_ = 1.5; //TODO: tune this value.
 
   // Process noise standard deviation yaw acceleration in rad/s^2
   // too high for a bike std_yawdd_ = 30;
-  std_yawdd_ = 0.3; //TODO: Tune this value.
+  std_yawdd_ = 0.6; //TODO: Tune this value.
 
   // Laser measurement noise standard deviation position1 in m
   std_laspx_ = 0.15;
@@ -128,7 +128,7 @@ void UKF::ProcessMeasurement(MeasurementPackage measurement_pack) {
 
 
   if (!is_initialized_) {
-    cout << "EKF: Initialize " << endl;
+    //cout << "EKF: Initialize " << endl;
     if (measurement_pack.sensor_type_ == MeasurementPackage::RADAR) {
       /**
       Convert radar from polar to cartesian coordinates and initialize state.
@@ -173,15 +173,15 @@ void UKF::ProcessMeasurement(MeasurementPackage measurement_pack) {
 
   }
 
-  cout << "UKF: Process Measurement " << endl;
+  //cout << "UKF: Process Measurement " << endl;
   if (measurement_pack.sensor_type_ == MeasurementPackage::RADAR) {
-    cout << "Radar Measurement" << endl;
+    //cout << "Radar Measurement" << endl;
     if ( use_radar_ != true) {// do not process
       return;
     }
   }
   else if (measurement_pack.sensor_type_ == MeasurementPackage::LASER) {
-    cout << "LASER Measurement" << endl;
+    //cout << "LASER Measurement" << endl;
     if ( use_laser_ != true) { // do not process.
       return;
     }
@@ -192,9 +192,9 @@ void UKF::ProcessMeasurement(MeasurementPackage measurement_pack) {
   float dt = (measurement_pack.timestamp_ - previous_timestamp_) / 1000000.0;     //dt - expressed in seconds
   previous_timestamp_ = measurement_pack.timestamp_;
 
-  cout << "dt = " << dt << endl;
-  cout << " Starting state = " << x_ << endl;
-  cout << " Starting covariance = " << P_ << endl;
+  //cout << "dt = " << dt << endl;
+  //cout << " Starting state = " << x_ << endl;
+  //cout << " Starting covariance = " << P_ << endl;
 
 
   Prediction(dt);
@@ -203,11 +203,11 @@ void UKF::ProcessMeasurement(MeasurementPackage measurement_pack) {
   // Update, different update for radar and lidar.
 
   if (measurement_pack.sensor_type_ == MeasurementPackage::RADAR && use_radar_) {
-	   cout << "Radar Update:" << measurement_pack.raw_measurements_[0] << " " << measurement_pack.raw_measurements_[1] << endl;
+	   //cout << "Radar Update:" << measurement_pack.raw_measurements_[0] << " " << measurement_pack.raw_measurements_[1] << endl;
      UpdateRadar(measurement_pack);
   }
   if (measurement_pack.sensor_type_ == MeasurementPackage::LASER && use_laser_) {
-	  cout << "Lidar Update:" << measurement_pack.raw_measurements_[0] << " " << measurement_pack.raw_measurements_[1] << endl;
+	  //cout << "Lidar Update:" << measurement_pack.raw_measurements_[0] << " " << measurement_pack.raw_measurements_[1] << endl;
     UpdateLidar(measurement_pack);
   }
 
@@ -227,14 +227,14 @@ void UKF::Prediction(double delta_t) {
 
   // Gen Sigma Points
   GenerateAugmentedSigmaPoints();
-  cout << "  Sigma Points = " << Xsig_aug_ << endl;
+  //cout << "  Sigma Points = " << Xsig_aug_ << endl;
 
   PredictSigmaPoints(delta_t);
-  cout << "  Predicted Sigma Points = " << Xsig_pred_ << endl;
+  //cout << "  Predicted Sigma Points = " << Xsig_pred_ << endl;
 
   PredictMeanAndCovariance();
-  cout << "  Predicted state = " << x_ << endl;
-  cout << "  Predicted covariance = " << P_ << endl;
+  //cout << "  Predicted state = " << x_ << endl;
+  //cout << "  Predicted covariance = " << P_ << endl;
 
 }
 
@@ -369,7 +369,7 @@ void UKF::PredictSigmaPoints(double delta_t) {
   }
 
   //print result
-  std::cout << "Xsig_pred = " << std::endl << Xsig_pred_ << std::endl;
+  //std::cout << "Xsig_pred = " << std::endl << Xsig_pred_ << std::endl;
 
 }
 
