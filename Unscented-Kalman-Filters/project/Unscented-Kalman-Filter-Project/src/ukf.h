@@ -50,7 +50,7 @@ public:
   MatrixXd Zsig_ ;
 
 
-  float previous_timestamp_;
+  long previous_timestamp_;
 
   ///* time when the state is true, in us
   long long time_us_;
