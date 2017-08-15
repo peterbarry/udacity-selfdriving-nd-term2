@@ -89,6 +89,11 @@ public:
 
   double NIS_radar_;
   double NIS_lidar_;
+ //metrics counters.
+  int nis_radar_cnt_;
+  int nis_radar_cnt_above_;
+  int nis_lidar_cnt_;
+  int nis_lidar_cnt_above_;
 
 
 

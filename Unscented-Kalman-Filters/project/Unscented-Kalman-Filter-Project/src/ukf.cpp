@@ -49,7 +49,7 @@ UKF::UKF() {
   ///* predicted sigma points matrix
   Xsig_pred_ = MatrixXd(n_x_, 2 * n_aug_ + 1);
 
-  //create sigma point matrix TODO: Needed ? reused from class.
+  //create sigma point matrix  reused from class.
   Xsig_aug_ = MatrixXd(n_aug_, 2 * n_aug_ + 1);
 
   ///* time when the state is true, in us
@@ -96,6 +96,11 @@ UKF::UKF() {
   NIS_radar_ = 0;
   NIS_lidar_ = 0;
 
+  nis_radar_cnt_ = 0;
+  nis_radar_cnt_above_ = 0;
+  nis_lidar_cnt_=0;
+  nis_lidar_cnt_above_=0;
+
   // Measurement noise covariance matrices initialization
   R_radar_ = MatrixXd(3,3);
   R_radar_ << std_radr_*std_radr_, 0, 0,
@@ -116,8 +121,6 @@ UKF::~UKF() {}
  */
 void UKF::ProcessMeasurement(MeasurementPackage measurement_pack) {
   /**
-  TODO:
-
   Complete this function! Make sure you switch between lidar and radar
   measurements.
   */
@@ -154,19 +157,14 @@ void UKF::ProcessMeasurement(MeasurementPackage measurement_pack) {
       Initialize state.
       */
       //set the state with the initial location and zero velocity
-      // make sure no div 0. todo: cleanup
+      // make sure no div 0.
       if (measurement_pack.raw_measurements_[0] != 0 && measurement_pack.raw_measurements_[1] != 0) {
         x_ << measurement_pack.raw_measurements_[0], measurement_pack.raw_measurements_[1], 0, 0,0;
       }
       else {
         x_ << SMALL_NUMBER,SMALL_NUMBER,0,0,0;
       }
-      //if (fabs(x_(0)) < SMALL_NUMBER and fabs(x_(1)) < SMALL_NUMBER) {
-      //    x_(0) = SMALL_NUMBER;
-      //    x_(1) = SMALL_NUMBER;
-      //}
 
-      //previous_timestamp_ = measurement_pack.timestamp_;
     }
     // done initializing, no need to predict or update
     previous_timestamp_ = measurement_pack.timestamp_;
@@ -188,7 +186,7 @@ void UKF::ProcessMeasurement(MeasurementPackage measurement_pack) {
       return;
     }
   }
-  
+
 
   //compute the time elapsed between the current and previous measurements
   float dt = (measurement_pack.timestamp_ - previous_timestamp_) / 1000000.0;     //dt - expressed in seconds
@@ -222,7 +220,6 @@ void UKF::ProcessMeasurement(MeasurementPackage measurement_pack) {
  */
 void UKF::Prediction(double delta_t) {
   /**
-  TODO:
 
   Complete this function! Estimate the object's location. Modify the state
   vector, x_. Predict sigma points, the state, and the state covariance matrix.
@@ -276,7 +273,7 @@ void UKF::PredictSensor(MeasurementPackage measurement_pack) {
       // measurement model
       Zsig_(0,i) = r;                        //r
       Zsig_(1,i) = atan2(p_y,p_x);                                 //phi
-      if (r > 0.001) {// source:https://github.com/PaulHeraty , to remove NANs. //todo: fix
+      if (r > 0.001) {// source:https://github.com/PaulHeraty , to remove NANs.
         Zsig_(2,i) = (p_x*v1 + p_y*v2 ) / sqrt(p_x*p_x + p_y*p_y);   //r_dot
       }
       else {
@@ -311,16 +308,12 @@ void UKF::PredictSensor(MeasurementPackage measurement_pack) {
   }
 
   //add measurement noise covariance matrix
-  MatrixXd R = MatrixXd(n_z,n_z);
+  MatrixXd R; // = MatrixXd(n_z,n_z);
   if (measurement_pack.sensor_type_ == MeasurementPackage::RADAR) {
-    R <<    std_radr_*std_radr_, 0, 0,
-            0, std_radphi_*std_radphi_, 0,
-            0, 0,std_radrd_*std_radrd_;
-    //R = R_radar_;
+    R = R_radar_;
   }
   else{
-    R << std_laspx_ * std_laspx_ , 0, 0,std_laspy_ * std_laspy_;
-    //R = R_lidar_;
+    R = R_lidar_;
   }
 
   S_ = S_ + R;
@@ -345,7 +338,7 @@ void UKF::PredictSigmaPoints(double delta_t) {
     //predicted state values
     double px_p, py_p;
 
-    //avoid division by zero : todo:check - difference
+    //avoid division by zero :
     if (fabs(yawd) > 0.001) {
         px_p = p_x + v/yawd * ( sin (yaw + yawd*delta_t) - sin(yaw));
         py_p = p_y + v/yawd * ( cos(yaw) - cos(yaw+yawd*delta_t) );
@@ -446,7 +439,6 @@ void UKF::GenerateAugmentedSigmaPoints() {
  */
 void UKF::UpdateLidar(MeasurementPackage meas_package) {
   /**
-  TODO:
 
   Complete this function! Use lidar data to update the belief about the object's
   position. Modify the state vector, x_, and covariance, P_.
@@ -483,7 +475,12 @@ void UKF::UpdateLidar(MeasurementPackage meas_package) {
 
   //  NIS
   float nis = z_diff.transpose() * S_.inverse() * z_diff;
-  cout << "Lidar NIS, " << nis << ",5.991"<< endl;
+
+  nis_lidar_cnt_++;
+  if ( nis > 5.991 )
+    nis_lidar_cnt_above_++;
+ float percent=(((float)nis_lidar_cnt_above_/(float)nis_lidar_cnt_)*100.0);
+  cout << "Lidar NIS, " << nis << ",5.991," << nis_lidar_cnt_ << "," <<  nis_lidar_cnt_above_ << "," << percent <<"%,Over threshold" << endl;
 
 
 }
@@ -494,7 +491,6 @@ void UKF::UpdateLidar(MeasurementPackage meas_package) {
  */
 void UKF::UpdateRadar(MeasurementPackage meas_package) {
   /**
-  TODO:
 
   Complete this function! Use radar data to update the belief about the object's
   position. Modify the state vector, x_, and covariance, P_.
@@ -548,7 +544,13 @@ void UKF::UpdateRadar(MeasurementPackage meas_package) {
   //  NIS
   float nis = z_diff.transpose() * S_.inverse() * z_diff;
   // Display in Comma seperte format so we can extract and plot.
-  cout << "Ridar NIS," << nis << ",7.815" << endl;
+  nis_radar_cnt_++;
+  if ( nis > 7.815 )
+    nis_radar_cnt_above_++;
+
+  float percent=(((float)nis_radar_cnt_above_/(float)nis_radar_cnt_)*100.0);
+
+  cout << "Radar NIS, " << nis << ",7.815," << nis_radar_cnt_ << "," <<  nis_radar_cnt_above_ << "," << percent <<"%,Over threshold" << endl;
 
 
 
