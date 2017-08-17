@@ -1,0 +1,3 @@
+This updates probabilty based on movement.
+Initialise the locaiton based on proximity to +- 1 m from a landmark.
+Does not do the observation based update.
