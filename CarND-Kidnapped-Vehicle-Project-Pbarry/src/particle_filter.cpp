@@ -156,7 +156,8 @@ void ParticleFilter::dataAssociation(std::vector<LandmarkObs> predicted, std::ve
 			int distance = dist(ob_it->x,ob_it->y,pred_it->x,pred_it->y);
 			if ( distance < min_dist) {
 				// update Id.
-					ob_it->id = pred_it->id;
+                min_dist = distance;
+                ob_it->id = pred_it->id;
 			}
 
 		}
@@ -253,9 +254,12 @@ void ParticleFilter::updateWeights(double sensor_range, double std_landmark[],
 			// Here we have a list of global_observations update to global space.
 			// and we have a list of inrange_landmarks in global address space.
 			dataAssociation(particles_it->inrange_landmarks,global_observations);
+            cout << endl << "Particle Associations complete - nearest neighbour " << endl ;
+
 
 		}
 
+        cout << endl << "Particles  complete - nearest neighbour " << endl ;
 
 
 		//Update measurements to global coordinates.
