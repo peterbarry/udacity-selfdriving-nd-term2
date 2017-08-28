@@ -3,6 +3,7 @@
  *
  *  Created on: Dec 12, 2016
  *      Author: Tiffany Huang
+ *      Added content for Udacity project : Peter Barry.
  */
 
 #include <random>
@@ -192,12 +193,12 @@ void ParticleFilter::updateWeights(double sensor_range, double std_landmark[],
 		std::vector<LandmarkObs>::iterator observations_it;
 
 
-		cout << "Update Weights: Sensor Range: " << sensor_range << endl;
+		//cout << "Update Weights: Sensor Range: " << sensor_range << endl;
 
 		// GEnerate landmarks wirthin range of vehicle.
 		for(particles_it=particles.begin() ; particles_it < particles.end(); particles_it++ ) {
 			// Iterate through all the particles
-			cout << "*** Checking Particle ID:" << particles_it->id << endl << "Searching map" << endl;
+			//cout << "*** Checking Particle ID:" << particles_it->id << endl << "Searching map" << endl;
 
 			landmarks_inrange_it = particles_it->inrange_landmarks.begin();
 
@@ -205,7 +206,7 @@ void ParticleFilter::updateWeights(double sensor_range, double std_landmark[],
 					 landmark_it < map_landmarks.landmark_list.end() ;
 					 landmark_it++ ){
 					// Check if in range.
-					cout << ".";
+					//cout << ".";
 					int distance = dist(particles_it->x,particles_it->y,(double)(landmark_it->x_f),(double)(landmark_it->y_f));
 
 					if (distance <= sensor_range) {
@@ -217,7 +218,7 @@ void ParticleFilter::updateWeights(double sensor_range, double std_landmark[],
 						landmark.y = (double)landmark_it->y_f;
 
 						// The landmark is in range of this particle - ignoring uncertainty of measurements
-						cout << endl<< "*** Landmark ID in range:" << landmark_it->id_i << " Range:" << distance << endl;
+						//cout << endl<< "*** Landmark ID in range:" << landmark_it->id_i << " Range:" << distance << endl;
 
 						landmarks_inrange_it = particles_it->inrange_landmarks.insert(landmarks_inrange_it,landmark);
 					}
@@ -231,7 +232,7 @@ void ParticleFilter::updateWeights(double sensor_range, double std_landmark[],
 			for ( observations_it = observations.begin() ; observations_it < observations.end(); observations_it++) {
 				LandmarkObs global_obs;
 
-				cout << endl << "Procesing Local observations: " << endl << observations_it->id << endl << "Local X:" << observations_it->x << endl << "Local Y:" << observations_it->y << endl;
+				//cout << endl << "Procesing Local observations: " << endl << observations_it->id << endl << "Local X:" << observations_it->x << endl << "Local Y:" << observations_it->y << endl;
 
 				double theta=particles_it->theta;
 				double delta_x=particles_it->x;
@@ -254,7 +255,7 @@ void ParticleFilter::updateWeights(double sensor_range, double std_landmark[],
 			// Here we have a list of global_observations update to global space.
 			// and we have a list of inrange_landmarks in global address space.
 			dataAssociation(particles_it->inrange_landmarks,global_observations);
-            cout << endl << "Particle Associations complete - nearest neighbour " << endl ;
+            //cout << endl << "Particle Associations complete - nearest neighbour " << endl ;
             
 
 
@@ -279,11 +280,11 @@ void ParticleFilter::updateWeights(double sensor_range, double std_landmark[],
                 
             }
             // Particle have an update un normalised weight 
-            cout << endl << "Particle  complete - weight " << endl ;
+            //cout << endl << "Particle  complete - weight " << endl ;
 
 		}
 
-        cout << endl << "Particles  complete - un normalised weights " << endl ;
+        //cout << endl << "Particles  complete - un normalised weights " << endl ;
 
     
         // Normalize weights for all particles.
@@ -293,18 +294,24 @@ void ParticleFilter::updateWeights(double sensor_range, double std_landmark[],
             // Iterate through all the particles
             wTotal += particles_it->weight;
         }
-        int i=0;
+    
         for(particles_it=particles.begin() ; particles_it < particles.end(); particles_it++ ) {
             // Iterate through all the particles
             particles_it->weight = particles_it->weight / wTotal;
-            weights[i] = particles_it->weight;
-            ++i;
+  
+        }
+        //cout << endl << "Particles  complete - normalised weights " << endl ;
+
+        // Debug check to see of sum to 1.
+        double wTotalNorm= 0.0;
+        for(particles_it=particles.begin() ; particles_it < particles.end(); particles_it++ ) {
+            // Iterate through all the particles
+            wTotalNorm += particles_it->weight;
         }
 
-        cout << endl << "Particles  complete - normalised weights " << endl ;
-
+        if ( wTotalNorm != 1)
+            cout << "ERROR: Total weight: should be 1: but is " << wTotalNorm;
     
-
 
 
 
@@ -314,6 +321,56 @@ void ParticleFilter::resample() {
 	// TODO: Resample particles with replacement with probability proportional to their weight.
 	// NOTE: You may find std::discrete_distribution helpful here.
 	//   http://en.cppreference.com/w/cpp/numeric/random/discrete_distribution
+
+    
+    // Create a vector of distributions
+    // Setup the random bits
+    std::random_device rd;
+    std::mt19937 gen(rd());
+    std::vector<double> weights_distro;
+    std::vector<double>::iterator weights_iterator;
+
+    std::vector<Particle>::iterator particles_it;
+
+    weights_iterator = weights_distro.begin();
+    for(particles_it=particles.begin() ; particles_it < particles.end(); particles_it++ ) {
+        weights_iterator = weights_distro.insert(weights_iterator,(particles_it->weight));
+       // weights_distros[i++] = particles_it->weight;
+    }
+    
+    std::discrete_distribution<> d (weights_distro.begin(),weights_distro.end());
+    
+    int i,resample_index;
+    
+    std::vector<Particle> new_particles;
+    std::vector<Particle>::iterator new_particles_iterator;
+    
+    Particle particle;
+    
+    memset(&particle,0, sizeof(Particle));
+    new_particles_iterator = new_particles.begin();
+
+    //cout << "Resampling :" << endl;
+    for (i = 0 ; i <NUM_PARTICLES;++i) {
+        // Generate new particles
+        resample_index = d(gen);
+        
+        particle.id = i;
+        particle.x = particles[resample_index].x;
+        particle.y =particles[resample_index].y;
+        particle.theta =particles[resample_index].theta;
+        particle.weight = 1.0;
+        new_particles_iterator = new_particles.insert(new_particles_iterator,(particle));
+
+        //cout << resample_index << endl;
+    }
+    
+    // new particles list.
+    particles  = new_particles;
+   //cout << "Resampling End:" << endl;
+
+
+    
 
 }
 

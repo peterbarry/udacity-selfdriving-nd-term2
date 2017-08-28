@@ -11,7 +11,7 @@
 
 #include "helper_functions.h"
 
-#define NUM_PARTICLES 20
+#define NUM_PARTICLES 100
 
 
 struct Particle {
