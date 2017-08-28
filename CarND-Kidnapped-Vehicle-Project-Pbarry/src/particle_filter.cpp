@@ -30,7 +30,7 @@ void ParticleFilter::init(double x, double y, double theta, double std[]) {
 		num_particles = NUM_PARTICLES;
 
 		std::default_random_engine generator_x;
-	  std::normal_distribution<double> distribution_x(x,std[0]);
+        std::normal_distribution<double> distribution_x(x,std[0]);
 
 		std::default_random_engine generator_y;
 		std::normal_distribution<double> distribution_y(y,std[1]);
@@ -255,14 +255,56 @@ void ParticleFilter::updateWeights(double sensor_range, double std_landmark[],
 			// and we have a list of inrange_landmarks in global address space.
 			dataAssociation(particles_it->inrange_landmarks,global_observations);
             cout << endl << "Particle Associations complete - nearest neighbour " << endl ;
+            
 
+
+            // Iterate over associations - global observations now updated  with landmark id.
+            for ( global_observations_it = global_observations.begin() ; global_observations_it < global_observations.end(); global_observations_it++) {
+                double obs_x=0.0;
+                double obs_y=0.0;
+                double landmark_x=0.0;
+                double landmark_y=0.0;
+                double Px;
+                
+                obs_x=global_observations_it->x;
+                obs_y=global_observations_it->y;
+                
+                if ( global_observations_it->id > 0) {
+                    landmark_x = (double) map_landmarks.landmark_list[(global_observations_it->id) -1].x_f;
+                    landmark_y = (double) map_landmarks.landmark_list[(global_observations_it->id) -1].y_f;
+                }
+                
+                Px = multiGausian( obs_x, landmark_x, obs_y, landmark_y, std_landmark[0], std_landmark[1]);
+                particles_it->weight *= Px;
+                
+            }
+            // Particle have an update un normalised weight 
+            cout << endl << "Particle  complete - weight " << endl ;
 
 		}
 
-        cout << endl << "Particles  complete - nearest neighbour " << endl ;
+        cout << endl << "Particles  complete - un normalised weights " << endl ;
 
+    
+        // Normalize weights for all particles.
+    
+        double wTotal= 0.0;
+        for(particles_it=particles.begin() ; particles_it < particles.end(); particles_it++ ) {
+            // Iterate through all the particles
+            wTotal += particles_it->weight;
+        }
+        int i=0;
+        for(particles_it=particles.begin() ; particles_it < particles.end(); particles_it++ ) {
+            // Iterate through all the particles
+            particles_it->weight = particles_it->weight / wTotal;
+            weights[i] = particles_it->weight;
+            ++i;
+        }
 
-		//Update measurements to global coordinates.
+        cout << endl << "Particles  complete - normalised weights " << endl ;
+
+    
+
 
 
 
