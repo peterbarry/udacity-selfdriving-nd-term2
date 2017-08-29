@@ -42,7 +42,7 @@ class ParticleFilter {
 	bool is_initialized;
 
 	// Vector of weights of all particles
-	std::vector<double> weights;
+	std::vector<double> weights_unused_can_delete;
 
 public:
 

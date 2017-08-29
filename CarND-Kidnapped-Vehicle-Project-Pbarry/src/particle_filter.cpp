@@ -44,14 +44,14 @@ void ParticleFilter::init(double x, double y, double theta, double std[]) {
 
 
 
-		weights.reserve(num_particles);
-		cout << "Particle size:" << particles.size() << endl;
+		//weights.reserve(num_particles);
+		//cout << "Particle size:" << particles.size() << endl;
 
 		particles.reserve(num_particles);
-		cout << "Particle size:" << particles.size() << endl;
+		//cout << "Particle size:" << particles.size() << endl;
 
 		particles_iterator = particles.begin();
-		weights_iterator =  weights.begin();
+		//weights_iterator =  weights.begin();
 
 		cout << "Initialising Particle Filters with " << num_particles << " particles" << endl;
 		for (int i=0; i < num_particles; ++i) {
@@ -59,14 +59,14 @@ void ParticleFilter::init(double x, double y, double theta, double std[]) {
 				  struct Particle local_particle;
 
 			    local_particle.id = i;
-					local_particle.x =  distribution_x(generator_x);
-					local_particle.y = distribution_y(generator_y);
-					local_particle.theta = distribution_theta(generator_theta);
+					local_particle.x = x +  distribution_x(generator_x);
+					local_particle.y = y + distribution_y(generator_y);
+					local_particle.theta = theta + distribution_theta(generator_theta);
 					local_particle.weight=1.0;
 
 					particles_iterator = particles.insert(particles_iterator,local_particle);
 
-					weights_iterator = weights.insert(weights_iterator,(double(1)));
+					//weights_iterator = weights.insert(weights_iterator,(double(1)));
 
 					//todo add weights.at(i) = 0;
 					//todo: Do I need to add random gausian noise to this too or is the nornal selection enough.
@@ -103,32 +103,48 @@ void ParticleFilter::prediction(double delta_t, double std_pos[], double velocit
 	std::default_random_engine generator_theta;
 	std::normal_distribution<double> distribution_theta(0,std_pos[2]);
 
-	cout << "Prediction  Updates: Velocity:" << velocity << "Delta Time:" << delta_t << "Yaw rate:" << yaw_rate << endl;
+	//cout << "Prediction  Updates: Velocity:" << velocity << "Delta Time:" << delta_t << "Yaw rate:" << yaw_rate << endl;
 
 	distance = velocity * delta_t; // assume time and distance in same metics.
 	theta_delta = yaw_rate * delta_t;
 
-	cout << "Distance Covered:" << distance << "Angle Change:" << theta_delta << endl;
+	//cout << "Distance Covered:" << distance << "Angle Change:" << theta_delta << endl;
 
 
 
 	for (int i=0; i < num_particles; ++i) {
-		try{
+		try{ // todo : remove try.
 
 			//  This assumes bicycle model for vehicle.
-			//todo : probably wrong if you read: https://classroom.udacity.com/nanodegrees/nd013/parts/40f38239-66b6-46ec-ae68-03afd8a601c8/modules/2c318113-724b-4f9f-860c-cb334e6e4ad7/lessons/5c50790c-5370-4c80-aff6-334659d5c0d9/concepts/ca98c146-ee0d-4e53-9900-81cec2b771f7
+			// https://classroom.udacity.com/nanodegrees/nd013/parts/40f38239-66b6-46ec-ae68-03afd8a601c8/modules/2c318113-724b-4f9f-860c-cb334e6e4ad7/lessons/5c50790c-5370-4c80-aff6-334659d5c0d9/concepts/ca98c146-ee0d-4e53-9900-81cec2b771f7
 
-				particles.at(i).theta += theta_delta + distribution_theta(generator_theta);
-				particles.at(i).theta = fmod(particles.at(i).theta , (2 * M_PI) );
+				//particles.at(i).theta += theta_delta + distribution_theta(generator_theta);
+				//particles.at(i).theta = fmod(particles.at(i).theta , (2 * M_PI) );
 
-				particles.at(i).x = particles.at(i).x + (cos(particles.at(i).theta) * distance);
-				particles.at(i).x = particles.at(i).x + distribution_x(generator_x);
+				//particles.at(i).x = particles.at(i).x + (cos(particles.at(i).theta) * distance);
+                // add noise
+				//particles.at(i).x = particles.at(i).x + distribution_x(generator_x);
 
-				particles.at(i).y = particles.at(i).y + (sin(particles.at(i).theta) * distance);
-				particles.at(i).y = particles.at(i).y + distribution_y(generator_y);
+				//particles.at(i).y = particles.at(i).y + (sin(particles.at(i).theta) * distance);
+                // add noise
+				//particles.at(i).y = particles.at(i).y + distribution_y(generator_y);
+                if (fabs(yaw_rate) < 0.0001) {
+                    particles[i].x += velocity * delta_t * cos(particles[i].theta);
+                    particles[i].y += velocity * delta_t * sin(particles[i].theta);
+                    particles[i].theta += yaw_rate * delta_t; // small update.
 
-
-		}
+                }
+                else {
+                    particles[i].x += velocity / yaw_rate * (sin(particles[i].theta + yaw_rate*delta_t) - sin(particles[i].theta));
+                    particles[i].y += velocity / yaw_rate * (cos(particles[i].theta) - cos(particles[i].theta + yaw_rate*delta_t));
+                    particles[i].theta += yaw_rate * delta_t;
+                }
+                // add noise
+                particles[i].x += distribution_x(generator_x);
+                particles[i].y += distribution_y(generator_y);
+                particles[i].theta += distribution_theta(generator_theta);
+      
+        }
 		catch(std::out_of_range o){
 				std::cout<<o.what()<<std::endl;
 		}
@@ -147,18 +163,22 @@ void ParticleFilter::dataAssociation(std::vector<LandmarkObs> predicted, std::ve
 	vector<LandmarkObs>::iterator ob_it;  // declare an iterator for observations
 	vector<LandmarkObs>::iterator pred_it;  // declare an iterator for predictions
 
-
+    //cout << "Associate landmark with observasion" << endl;
 	for(ob_it=observations.begin() ; ob_it < observations.end(); ob_it++ ) {
 		int min_dist= INT_MAX;
 
 		ob_it->id = INT_MAX; // no landmark found.
-
+        
+        //cout << "Observasion (x,y)" <<ob_it->x << "," << ob_it->y << endl;
+        
 		for(pred_it=predicted.begin() ; pred_it < predicted.end(); pred_it++ ) {
 			int distance = dist(ob_it->x,ob_it->y,pred_it->x,pred_it->y);
 			if ( distance < min_dist) {
 				// update Id.
                 min_dist = distance;
                 ob_it->id = pred_it->id;
+                //cout << "Updating landmark: id:" << ob_it->id << "Distance:" << distance << endl;
+                
 			}
 
 		}
@@ -260,6 +280,8 @@ void ParticleFilter::updateWeights(double sensor_range, double std_landmark[],
 
 
             // Iterate over associations - global observations now updated  with landmark id.
+            particles_it->weight = 1.0 ;// reset weight for particle
+            
             for ( global_observations_it = global_observations.begin() ; global_observations_it < global_observations.end(); global_observations_it++) {
                 double obs_x=0.0;
                 double obs_y=0.0;
@@ -274,8 +296,15 @@ void ParticleFilter::updateWeights(double sensor_range, double std_landmark[],
                     landmark_x = (double) map_landmarks.landmark_list[(global_observations_it->id) -1].x_f;
                     landmark_y = (double) map_landmarks.landmark_list[(global_observations_it->id) -1].y_f;
                 }
+                else {
+                    cout << "ERROR Invalid observ id" << endl;
+                }
                 
                 Px = multiGausian( obs_x, landmark_x, obs_y, landmark_y, std_landmark[0], std_landmark[1]);
+                if (Px == 0) {
+                    cout << "Error Probability zero" << endl;
+                }
+                
                 particles_it->weight *= Px;
                 
             }
@@ -284,35 +313,32 @@ void ParticleFilter::updateWeights(double sensor_range, double std_landmark[],
 
 		}
 
-        //cout << endl << "Particles  complete - un normalised weights " << endl ;
+       // cout << endl << "Particles  complete - un normalised weights " << endl ;
 
+    // Normalize weights for all particles.
     
-        // Normalize weights for all particles.
+    double wTotal= 0.0;
+    for(particles_it=particles.begin() ; particles_it < particles.end(); particles_it++ ) {
+        // Iterate through all the particles
+        wTotal += particles_it->weight;
+    }
     
-        double wTotal= 0.0;
-        for(particles_it=particles.begin() ; particles_it < particles.end(); particles_it++ ) {
-            // Iterate through all the particles
-            wTotal += particles_it->weight;
-        }
+    for(particles_it=particles.begin() ; particles_it < particles.end(); particles_it++ ) {
+        // Iterate through all the particles
+        particles_it->weight = particles_it->weight / wTotal;
+        
+    }
+    //cout << endl << "Particles  complete - normalised weights " << endl ;
     
-        for(particles_it=particles.begin() ; particles_it < particles.end(); particles_it++ ) {
-            // Iterate through all the particles
-            particles_it->weight = particles_it->weight / wTotal;
-  
-        }
-        //cout << endl << "Particles  complete - normalised weights " << endl ;
-
-        // Debug check to see of sum to 1.
-        double wTotalNorm= 0.0;
-        for(particles_it=particles.begin() ; particles_it < particles.end(); particles_it++ ) {
-            // Iterate through all the particles
-            wTotalNorm += particles_it->weight;
-        }
-
-        if ( wTotalNorm != 1)
-            cout << "ERROR: Total weight: should be 1: but is " << wTotalNorm;
+    // Debug check to see of sum to 1.
+    double wTotalNorm= 0.0;
+    for(particles_it=particles.begin() ; particles_it < particles.end(); particles_it++ ) {
+        // Iterate through all the particles
+        wTotalNorm += particles_it->weight;
+    }
     
-
+    if ( wTotalNorm <= 0.99 || wTotal >= 1.01)
+        cout << "ERROR: Total weight: should be 1: but is " << wTotalNorm;
 
 
 }
@@ -331,6 +357,12 @@ void ParticleFilter::resample() {
     std::vector<double>::iterator weights_iterator;
 
     std::vector<Particle>::iterator particles_it;
+    
+
+    
+
+    
+    
 
     weights_iterator = weights_distro.begin();
     for(particles_it=particles.begin() ; particles_it < particles.end(); particles_it++ ) {
@@ -359,7 +391,7 @@ void ParticleFilter::resample() {
         particle.x = particles[resample_index].x;
         particle.y =particles[resample_index].y;
         particle.theta =particles[resample_index].theta;
-        particle.weight = 1.0;
+        particle.weight = particles[resample_index].weight;
         new_particles_iterator = new_particles.insert(new_particles_iterator,(particle));
 
         //cout << resample_index << endl;
@@ -367,7 +399,7 @@ void ParticleFilter::resample() {
     
     // new particles list.
     particles  = new_particles;
-   //cout << "Resampling End:" << endl;
+    //cout << "Resampling End:" << endl;
 
 
     
