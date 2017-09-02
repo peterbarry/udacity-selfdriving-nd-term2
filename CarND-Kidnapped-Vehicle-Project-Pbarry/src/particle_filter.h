@@ -11,7 +11,7 @@
 
 #include "helper_functions.h"
 
-#define NUM_PARTICLES 100
+#define NUM_PARTICLES 101
 
 
 struct Particle {
@@ -24,7 +24,7 @@ struct Particle {
 	std::vector<int> associations;
 	std::vector<double> sense_x;
 	std::vector<double> sense_y;
-	std::vector<LandmarkObs> inrange_landmarks ; // List of landmarks in the map
+	//std::vector<LandmarkObs> inrange_landmarks ; // List of landmarks in the map
 
 };
 
