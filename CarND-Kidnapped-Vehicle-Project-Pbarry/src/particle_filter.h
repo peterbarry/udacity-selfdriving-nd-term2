@@ -13,7 +13,6 @@
 
 #define NUM_PARTICLES 101
 
-
 struct Particle {
 
 	int id;

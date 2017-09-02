@@ -126,7 +126,7 @@ void ParticleFilter::prediction(double delta_t, double std_pos[], double velocit
                 particles[i].y += distribution_y(gen);
                 particles[i].theta += distribution_theta(gen);
 
-                particles[i].theta = fmod(particles[i].theta , (2 * M_PI) );
+                //particles[i].theta = fmod(particles[i].theta , (2 * M_PI) );
 
 
 	}
