@@ -166,7 +166,7 @@ def twiddle(tol=0.2):
                     p[i] += dp[i]
                     dp[i] *= 0.9
         it += 1
-    return p
+    return p,best_err
 
 
 params, err = twiddle()
