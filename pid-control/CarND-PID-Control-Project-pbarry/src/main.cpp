@@ -34,6 +34,43 @@ int main()
 
   PID pid;
   // TODO: Initialize the pid variable.
+  //todo: Search for optimal setting for this.
+  //**torecord
+  //pid.Init(0.2,0.004,0.3); // oscilates and crashes.
+  //#define THROTTLE 0.1;
+  //pid.Init(0.1,0.000,0.0); // oscilates and crashes a little further.
+  //pid.Init(0.1,0.001,0.0);// oscilates and crashes a less  further.
+  //pid.Init(0.1,0.001,0.0); // oscilates and crashes a less  further.
+  //pid.Init(0.1,0.000,0.3);  // oscilates less as more d, but does not react quick for sharp turn, fails before bridge.
+
+  // Worked all way around - going slow max 12mph, but since we have no i contribution - must not have any systemic error.
+  //pid.Init(0.2,0.000,0.3);  // Gets all the way aound!!
+  //#define THROTTLE 0.1;
+
+
+  //pid.Init(0.2,0.000,0.3);  // Gets all the way aound!!
+//#define THROTTLE 0.1;
+
+  //pid.Init(0.2,0.000,0.3);  // Oscilates too much at bridge at this speed.
+//#define THROTTLE 0.2;
+
+//  pid.Init(0.2,0.000,0.4);  // touches one or 2 spots, oscilates a lot. Gets around
+//#define THROTTLE 0.2;
+
+//Kp=0.075, Ki=0.001, Kd=5.0
+//** to record
+  //pid.Init(0.08,0,5); // try a large D, no I. Cross line too much - gets around but unsafe, no osc but jerky
+  //#define THROTTLE 0.2;
+
+  //pid.Init(0.07,0,4); // crosses lines too much.
+  //#define THROTTLE 0.2;
+
+  //*** WORKED !!!! at 0.2 speed **** record this one !!!!!
+  pid.Init(0.2,0,2); // crosses lines too much.
+  #define THROTTLE 0.2;
+
+
+    std::cout << "Initialised" << std::endl;
 
   h.onMessage([&pid](uWS::WebSocket<uWS::SERVER> ws, char *data, size_t length, uWS::OpCode opCode) {
     // "42" at the start of the message means there's a websocket message event.
@@ -57,13 +94,27 @@ int main()
           * NOTE: Feel free to play around with the throttle and speed. Maybe use
           * another PID controller to control the speed!
           */
-          
+          pid.UpdateError(cte);
+          double totalError = pid.TotalError();
+          totalError *= -1;
+          if (totalError < -1.0 )
+            totalError = -1.0;
+          else if (totalError > 1.0)
+            totalError = 1.0;
+
+          std::cout << "Old:CTE: " << cte << " Currnet Steering Value: " << angle << std::endl;
+
+
+          steer_value = totalError;
+
+
           // DEBUG
-          std::cout << "CTE: " << cte << " Steering Value: " << steer_value << std::endl;
+          std::cout << "CTE: " << cte << " Next Steering Value: " << steer_value << std::endl;
 
           json msgJson;
           msgJson["steering_angle"] = steer_value;
-          msgJson["throttle"] = 0.3;
+          msgJson["throttle"] =  THROTTLE; // set to a variable.
+
           auto msg = "42[\"steer\"," + msgJson.dump() + "]";
           std::cout << msg << std::endl;
           ws.send(msg.data(), msg.length(), uWS::OpCode::TEXT);

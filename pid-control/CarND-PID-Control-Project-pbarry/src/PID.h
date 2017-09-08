@@ -10,9 +10,14 @@ public:
   double i_error;
   double d_error;
 
+ // For differential.
+  double cte_prev;
+//double for integral
+  double cte_i;
+
   /*
   * Coefficients
-  */ 
+  */
   double Kp;
   double Ki;
   double Kd;
