@@ -1,0 +1,2469 @@
+Initialised
+Listening to port 4567
+Connected!!!
+CTE: , 0.7598 , Next Steering Value: -0.07598
+42["steer",{"steering_angle":-0.07598,"throttle":0.2}]
+CTE: , 0.7598 , Next Steering Value: -0.07598
+42["steer",{"steering_angle":-0.07598,"throttle":0.2}]
+CTE: , 0.7598 , Next Steering Value: -0.07598
+42["steer",{"steering_angle":-0.07598,"throttle":0.2}]
+CTE: , 0.7598 , Next Steering Value: -0.07598
+42["steer",{"steering_angle":-0.07598,"throttle":0.2}]
+CTE: , 0.7598 , Next Steering Value: -0.07598
+42["steer",{"steering_angle":-0.07598,"throttle":0.2}]
+CTE: , 0.7598 , Next Steering Value: -0.07598
+42["steer",{"steering_angle":-0.07598,"throttle":0.2}]
+CTE: , 0.7596 , Next Steering Value: -0.07596
+42["steer",{"steering_angle":-0.07596,"throttle":0.2}]
+CTE: , 0.7595 , Next Steering Value: -0.07595
+42["steer",{"steering_angle":-0.07595,"throttle":0.2}]
+CTE: , 0.7592 , Next Steering Value: -0.07592
+42["steer",{"steering_angle":-0.07592,"throttle":0.2}]
+CTE: , 0.7589 , Next Steering Value: -0.07589
+42["steer",{"steering_angle":-0.07589,"throttle":0.2}]
+CTE: , 0.7585 , Next Steering Value: -0.07585
+42["steer",{"steering_angle":-0.07585,"throttle":0.2}]
+CTE: , 0.7581 , Next Steering Value: -0.07581
+42["steer",{"steering_angle":-0.07581,"throttle":0.2}]
+CTE: , 0.7576 , Next Steering Value: -0.07576
+42["steer",{"steering_angle":-0.07576,"throttle":0.2}]
+CTE: , 0.757 , Next Steering Value: -0.0757
+42["steer",{"steering_angle":-0.0757,"throttle":0.2}]
+CTE: , 0.7565 , Next Steering Value: -0.07565
+42["steer",{"steering_angle":-0.07565,"throttle":0.2}]
+CTE: , 0.7557 , Next Steering Value: -0.07557
+42["steer",{"steering_angle":-0.07557,"throttle":0.2}]
+CTE: , 0.7549 , Next Steering Value: -0.07549
+42["steer",{"steering_angle":-0.07549,"throttle":0.2}]
+CTE: , 0.754 , Next Steering Value: -0.0754
+42["steer",{"steering_angle":-0.0754,"throttle":0.2}]
+CTE: , 0.7529 , Next Steering Value: -0.07529
+42["steer",{"steering_angle":-0.07529,"throttle":0.2}]
+CTE: , 0.752 , Next Steering Value: -0.0752
+42["steer",{"steering_angle":-0.0752,"throttle":0.2}]
+CTE: , 0.7506 , Next Steering Value: -0.07506
+42["steer",{"steering_angle":-0.07506,"throttle":0.2}]
+CTE: , 0.7491 , Next Steering Value: -0.07491
+42["steer",{"steering_angle":-0.07491,"throttle":0.2}]
+CTE: , 0.7474 , Next Steering Value: -0.07474
+42["steer",{"steering_angle":-0.07474,"throttle":0.2}]
+CTE: , 0.7455 , Next Steering Value: -0.07455
+42["steer",{"steering_angle":-0.07455,"throttle":0.2}]
+CTE: , 0.7439 , Next Steering Value: -0.07439
+42["steer",{"steering_angle":-0.07439,"throttle":0.2}]
+CTE: , 0.7416 , Next Steering Value: -0.07416
+42["steer",{"steering_angle":-0.07416,"throttle":0.2}]
+CTE: , 0.7391 , Next Steering Value: -0.07391
+42["steer",{"steering_angle":-0.07391,"throttle":0.2}]
+CTE: , 0.7363 , Next Steering Value: -0.07363
+42["steer",{"steering_angle":-0.07363,"throttle":0.2}]
+CTE: , 0.734 , Next Steering Value: -0.0734
+42["steer",{"steering_angle":-0.0734,"throttle":0.2}]
+CTE: , 0.7307 , Next Steering Value: -0.07307
+42["steer",{"steering_angle":-0.07307,"throttle":0.2}]
+CTE: , 0.7271 , Next Steering Value: -0.07271
+42["steer",{"steering_angle":-0.07271,"throttle":0.2}]
+CTE: , 0.7232 , Next Steering Value: -0.07232
+42["steer",{"steering_angle":-0.07232,"throttle":0.2}]
+CTE: , 0.7189 , Next Steering Value: -0.07189
+42["steer",{"steering_angle":-0.07189,"throttle":0.2}]
+CTE: , 0.6984 , Next Steering Value: -0.06984
+42["steer",{"steering_angle":-0.06984,"throttle":0.2}]
+CTE: , 0.6938 , Next Steering Value: -0.06938
+42["steer",{"steering_angle":-0.06938,"throttle":0.2}]
+CTE: , 0.6875 , Next Steering Value: -0.06875
+42["steer",{"steering_angle":-0.06875,"throttle":0.2}]
+CTE: , 0.6807 , Next Steering Value: -0.06807
+42["steer",{"steering_angle":-0.06807,"throttle":0.2}]
+CTE: , 0.6735 , Next Steering Value: -0.06735
+42["steer",{"steering_angle":-0.06735,"throttle":0.2}]
+CTE: , 0.6659 , Next Steering Value: -0.06659
+42["steer",{"steering_angle":-0.06659,"throttle":0.2}]
+CTE: , 0.6558 , Next Steering Value: -0.06558
+42["steer",{"steering_angle":-0.06558,"throttle":0.2}]
+CTE: , 0.6471 , Next Steering Value: -0.06471
+42["steer",{"steering_angle":-0.06471,"throttle":0.2}]
+CTE: , 0.638 , Next Steering Value: -0.0638
+42["steer",{"steering_angle":-0.0638,"throttle":0.2}]
+CTE: , 0.6308 , Next Steering Value: -0.06308
+42["steer",{"steering_angle":-0.06308,"throttle":0.2}]
+CTE: , 0.6222 , Next Steering Value: -0.06222
+42["steer",{"steering_angle":-0.06222,"throttle":0.2}]
+CTE: , 0.6165 , Next Steering Value: -0.06165
+42["steer",{"steering_angle":-0.06165,"throttle":0.2}]
+CTE: , 0.6166 , Next Steering Value: -0.06166
+42["steer",{"steering_angle":-0.06166,"throttle":0.2}]
+CTE: , 0.6088 , Next Steering Value: -0.06088
+42["steer",{"steering_angle":-0.06088,"throttle":0.2}]
+CTE: , 0.602 , Next Steering Value: -0.0602
+42["steer",{"steering_angle":-0.0602,"throttle":0.2}]
+CTE: , 0.5987 , Next Steering Value: -0.05987
+42["steer",{"steering_angle":-0.05987,"throttle":0.2}]
+CTE: , 0.5959 , Next Steering Value: -0.05959
+42["steer",{"steering_angle":-0.05959,"throttle":0.2}]
+CTE: , 0.5942 , Next Steering Value: -0.05942
+42["steer",{"steering_angle":-0.05942,"throttle":0.2}]
+CTE: , 0.5932 , Next Steering Value: -0.05932
+42["steer",{"steering_angle":-0.05932,"throttle":0.2}]
+CTE: , 0.5921 , Next Steering Value: -0.05921
+42["steer",{"steering_angle":-0.05921,"throttle":0.2}]
+CTE: , 0.591 , Next Steering Value: -0.0591
+42["steer",{"steering_angle":-0.0591,"throttle":0.2}]
+CTE: , 0.5892 , Next Steering Value: -0.05892
+42["steer",{"steering_angle":-0.05892,"throttle":0.2}]
+CTE: , 0.5875 , Next Steering Value: -0.05875
+42["steer",{"steering_angle":-0.05875,"throttle":0.2}]
+CTE: , 0.585 , Next Steering Value: -0.0585
+42["steer",{"steering_angle":-0.0585,"throttle":0.2}]
+CTE: , 0.582 , Next Steering Value: -0.0582
+42["steer",{"steering_angle":-0.0582,"throttle":0.2}]
+CTE: , 0.5785 , Next Steering Value: -0.05785
+42["steer",{"steering_angle":-0.05785,"throttle":0.2}]
+CTE: , 0.5755 , Next Steering Value: -0.05755
+42["steer",{"steering_angle":-0.05755,"throttle":0.2}]
+CTE: , 0.5711 , Next Steering Value: -0.05711
+42["steer",{"steering_angle":-0.05711,"throttle":0.2}]
+CTE: , 0.5662 , Next Steering Value: -0.05662
+42["steer",{"steering_angle":-0.05662,"throttle":0.2}]
+CTE: , 0.5608 , Next Steering Value: -0.05608
+42["steer",{"steering_angle":-0.05608,"throttle":0.2}]
+CTE: , 0.5563 , Next Steering Value: -0.05563
+42["steer",{"steering_angle":-0.05563,"throttle":0.2}]
+CTE: , 0.5499 , Next Steering Value: -0.05499
+42["steer",{"steering_angle":-0.05499,"throttle":0.2}]
+CTE: , 0.5429 , Next Steering Value: -0.05429
+42["steer",{"steering_angle":-0.05429,"throttle":0.2}]
+CTE: , 0.5354 , Next Steering Value: -0.05354
+42["steer",{"steering_angle":-0.05354,"throttle":0.2}]
+CTE: , 0.5272 , Next Steering Value: -0.05272
+42["steer",{"steering_angle":-0.05272,"throttle":0.2}]
+CTE: , 0.5184 , Next Steering Value: -0.05184
+42["steer",{"steering_angle":-0.05184,"throttle":0.2}]
+CTE: , 0.5091 , Next Steering Value: -0.05091
+42["steer",{"steering_angle":-0.05091,"throttle":0.2}]
+CTE: , 0.5016 , Next Steering Value: -0.05016
+42["steer",{"steering_angle":-0.05016,"throttle":0.2}]
+CTE: , 0.4912 , Next Steering Value: -0.04912
+42["steer",{"steering_angle":-0.04912,"throttle":0.2}]
+CTE: , 0.4801 , Next Steering Value: -0.04801
+42["steer",{"steering_angle":-0.04801,"throttle":0.2}]
+CTE: , 0.4685 , Next Steering Value: -0.04685
+42["steer",{"steering_angle":-0.04685,"throttle":0.2}]
+CTE: , 0.4593 , Next Steering Value: -0.04593
+42["steer",{"steering_angle":-0.04593,"throttle":0.2}]
+CTE: , 0.4466 , Next Steering Value: -0.04466
+42["steer",{"steering_angle":-0.04466,"throttle":0.2}]
+CTE: , 0.4333 , Next Steering Value: -0.04333
+42["steer",{"steering_angle":-0.04333,"throttle":0.2}]
+CTE: , 0.4194 , Next Steering Value: -0.04194
+42["steer",{"steering_angle":-0.04194,"throttle":0.2}]
+CTE: , 0.4086 , Next Steering Value: -0.04086
+42["steer",{"steering_angle":-0.04086,"throttle":0.2}]
+CTE: , 0.39 , Next Steering Value: -0.039
+42["steer",{"steering_angle":-0.039,"throttle":0.2}]
+CTE: , 0.3783 , Next Steering Value: -0.03783
+42["steer",{"steering_angle":-0.03783,"throttle":0.2}]
+CTE: , 0.3624 , Next Steering Value: -0.03624
+42["steer",{"steering_angle":-0.03624,"throttle":0.2}]
+CTE: , 0.3459 , Next Steering Value: -0.03459
+42["steer",{"steering_angle":-0.03459,"throttle":0.2}]
+CTE: , 0.329 , Next Steering Value: -0.0329
+42["steer",{"steering_angle":-0.0329,"throttle":0.2}]
+CTE: , 0.316 , Next Steering Value: -0.0316
+42["steer",{"steering_angle":-0.0316,"throttle":0.2}]
+CTE: , 0.2983 , Next Steering Value: -0.02983
+42["steer",{"steering_angle":-0.02983,"throttle":0.2}]
+CTE: , 0.2803 , Next Steering Value: -0.02803
+42["steer",{"steering_angle":-0.02803,"throttle":0.2}]
+CTE: , 0.2618 , Next Steering Value: -0.02618
+42["steer",{"steering_angle":-0.02618,"throttle":0.2}]
+CTE: , 0.2478 , Next Steering Value: -0.02478
+42["steer",{"steering_angle":-0.02478,"throttle":0.2}]
+CTE: , 0.2288 , Next Steering Value: -0.02288
+42["steer",{"steering_angle":-0.02288,"throttle":0.2}]
+CTE: , 0.2144 , Next Steering Value: -0.02144
+42["steer",{"steering_angle":-0.02144,"throttle":0.2}]
+CTE: , 0.195 , Next Steering Value: -0.0195
+42["steer",{"steering_angle":-0.0195,"throttle":0.2}]
+CTE: , 0.1755 , Next Steering Value: -0.01755
+42["steer",{"steering_angle":-0.01755,"throttle":0.2}]
+CTE: , 0.1559 , Next Steering Value: -0.01559
+42["steer",{"steering_angle":-0.01559,"throttle":0.2}]
+CTE: , 0.141 , Next Steering Value: -0.0141
+42["steer",{"steering_angle":-0.0141,"throttle":0.2}]
+CTE: , 0.1214 , Next Steering Value: -0.01214
+42["steer",{"steering_angle":-0.01214,"throttle":0.2}]
+CTE: , 0.1018 , Next Steering Value: -0.01018
+42["steer",{"steering_angle":-0.01018,"throttle":0.2}]
+CTE: , 0.0869 , Next Steering Value: -0.00869
+42["steer",{"steering_angle":-0.00869,"throttle":0.2}]
+CTE: , 0.0672 , Next Steering Value: -0.00672
+42["steer",{"steering_angle":-0.00672,"throttle":0.2}]
+CTE: , 0.0477 , Next Steering Value: -0.00477
+42["steer",{"steering_angle":-0.00477,"throttle":0.2}]
+CTE: , 0.0283 , Next Steering Value: -0.00283
+42["steer",{"steering_angle":-0.00283,"throttle":0.2}]
+CTE: , 0.0092 , Next Steering Value: -0.00092
+42["steer",{"steering_angle":-0.00092,"throttle":0.2}]
+CTE: , -0.0094 , Next Steering Value: 0.00094
+42["steer",{"steering_angle":0.00094,"throttle":0.2}]
+CTE: , -0.0275 , Next Steering Value: 0.00275
+42["steer",{"steering_angle":0.00275,"throttle":0.2}]
+CTE: , -0.0406 , Next Steering Value: 0.00406
+42["steer",{"steering_angle":0.00406,"throttle":0.2}]
+CTE: , -0.062 , Next Steering Value: 0.0062
+42["steer",{"steering_angle":0.0062,"throttle":0.2}]
+CTE: , -0.0742 , Next Steering Value: 0.00742
+42["steer",{"steering_angle":0.00742,"throttle":0.2}]
+CTE: , -0.0899 , Next Steering Value: 0.00899
+42["steer",{"steering_angle":0.00899,"throttle":0.2}]
+CTE: , -0.105 , Next Steering Value: 0.0105
+42["steer",{"steering_angle":0.0105,"throttle":0.2}]
+CTE: , -0.1192 , Next Steering Value: 0.01192
+42["steer",{"steering_angle":0.01192,"throttle":0.2}]
+CTE: , -0.1321 , Next Steering Value: 0.01321
+42["steer",{"steering_angle":0.01321,"throttle":0.2}]
+CTE: , -0.1386 , Next Steering Value: 0.01386
+42["steer",{"steering_angle":0.01386,"throttle":0.2}]
+CTE: , -0.1422 , Next Steering Value: 0.01422
+42["steer",{"steering_angle":0.01422,"throttle":0.2}]
+CTE: , -0.1395 , Next Steering Value: 0.01395
+42["steer",{"steering_angle":0.01395,"throttle":0.2}]
+CTE: , -0.1278 , Next Steering Value: 0.01278
+42["steer",{"steering_angle":0.01278,"throttle":0.2}]
+CTE: , -0.1129 , Next Steering Value: 0.01129
+42["steer",{"steering_angle":0.01129,"throttle":0.2}]
+CTE: , -0.1007 , Next Steering Value: 0.01007
+42["steer",{"steering_angle":0.01007,"throttle":0.2}]
+CTE: , -0.079 , Next Steering Value: 0.0079
+42["steer",{"steering_angle":0.0079,"throttle":0.2}]
+CTE: , -0.0651 , Next Steering Value: 0.00651
+42["steer",{"steering_angle":0.00651,"throttle":0.2}]
+CTE: , -0.0411 , Next Steering Value: 0.00411
+42["steer",{"steering_angle":0.00411,"throttle":0.2}]
+CTE: , -0.0207 , Next Steering Value: 0.00207
+42["steer",{"steering_angle":0.00207,"throttle":0.2}]
+CTE: , 0.0004 , Next Steering Value: -4e-05
+42["steer",{"steering_angle":-4e-05,"throttle":0.2}]
+CTE: , 0.0224 , Next Steering Value: -0.00224
+42["steer",{"steering_angle":-0.00224,"throttle":0.2}]
+CTE: , 0.0508 , Next Steering Value: -0.00508
+42["steer",{"steering_angle":-0.00508,"throttle":0.2}]
+CTE: , 0.0742 , Next Steering Value: -0.00742
+42["steer",{"steering_angle":-0.00742,"throttle":0.2}]
+CTE: , 0.104 , Next Steering Value: -0.0104
+42["steer",{"steering_angle":-0.0104,"throttle":0.2}]
+CTE: , 0.1284 , Next Steering Value: -0.01284
+42["steer",{"steering_angle":-0.01284,"throttle":0.2}]
+CTE: , 0.1531 , Next Steering Value: -0.01531
+42["steer",{"steering_angle":-0.01531,"throttle":0.2}]
+CTE: , 0.1844 , Next Steering Value: -0.01844
+42["steer",{"steering_angle":-0.01844,"throttle":0.2}]
+CTE: , 0.2095 , Next Steering Value: -0.02095
+42["steer",{"steering_angle":-0.02095,"throttle":0.2}]
+CTE: , 0.2345 , Next Steering Value: -0.02345
+42["steer",{"steering_angle":-0.02345,"throttle":0.2}]
+CTE: , 0.2655 , Next Steering Value: -0.02655
+42["steer",{"steering_angle":-0.02655,"throttle":0.2}]
+CTE: , 0.2902 , Next Steering Value: -0.02902
+42["steer",{"steering_angle":-0.02902,"throttle":0.2}]
+CTE: , 0.3145 , Next Steering Value: -0.03145
+42["steer",{"steering_angle":-0.03145,"throttle":0.2}]
+CTE: , 0.3443 , Next Steering Value: -0.03443
+42["steer",{"steering_angle":-0.03443,"throttle":0.2}]
+CTE: , 0.3675 , Next Steering Value: -0.03675
+42["steer",{"steering_angle":-0.03675,"throttle":0.2}]
+CTE: , 0.3954 , Next Steering Value: -0.03954
+42["steer",{"steering_angle":-0.03954,"throttle":0.2}]
+CTE: , 0.4168 , Next Steering Value: -0.04168
+42["steer",{"steering_angle":-0.04168,"throttle":0.2}]
+CTE: , 0.4424 , Next Steering Value: -0.04424
+42["steer",{"steering_angle":-0.04424,"throttle":0.2}]
+CTE: , 0.4615 , Next Steering Value: -0.04615
+42["steer",{"steering_angle":-0.04615,"throttle":0.2}]
+CTE: , 0.4795 , Next Steering Value: -0.04795
+42["steer",{"steering_angle":-0.04795,"throttle":0.2}]
+CTE: , 0.4962 , Next Steering Value: -0.04962
+42["steer",{"steering_angle":-0.04962,"throttle":0.2}]
+CTE: , 0.515 , Next Steering Value: -0.0515
+42["steer",{"steering_angle":-0.0515,"throttle":0.2}]
+CTE: , 0.5284 , Next Steering Value: -0.05284
+42["steer",{"steering_angle":-0.05284,"throttle":0.2}]
+CTE: , 0.5403 , Next Steering Value: -0.05403
+42["steer",{"steering_angle":-0.05403,"throttle":0.2}]
+CTE: , 0.5528 , Next Steering Value: -0.05528
+42["steer",{"steering_angle":-0.05528,"throttle":0.2}]
+CTE: , 0.5608 , Next Steering Value: -0.05608
+42["steer",{"steering_angle":-0.05608,"throttle":0.2}]
+CTE: , 0.5683 , Next Steering Value: -0.05683
+42["steer",{"steering_angle":-0.05683,"throttle":0.2}]
+CTE: , 0.5729 , Next Steering Value: -0.05729
+42["steer",{"steering_angle":-0.05729,"throttle":0.2}]
+CTE: , 0.5742 , Next Steering Value: -0.05742
+42["steer",{"steering_angle":-0.05742,"throttle":0.2}]
+CTE: , 0.5738 , Next Steering Value: -0.05738
+42["steer",{"steering_angle":-0.05738,"throttle":0.2}]
+CTE: , 0.5763 , Next Steering Value: -0.05763
+42["steer",{"steering_angle":-0.05763,"throttle":0.2}]
+CTE: , 0.5846 , Next Steering Value: -0.05846
+42["steer",{"steering_angle":-0.05846,"throttle":0.2}]
+CTE: , 0.5972 , Next Steering Value: -0.05972
+42["steer",{"steering_angle":-0.05972,"throttle":0.2}]
+CTE: , 0.6198 , Next Steering Value: -0.06198
+42["steer",{"steering_angle":-0.06198,"throttle":0.2}]
+CTE: , 0.636 , Next Steering Value: -0.0636
+42["steer",{"steering_angle":-0.0636,"throttle":0.2}]
+CTE: , 0.653 , Next Steering Value: -0.0653
+42["steer",{"steering_angle":-0.0653,"throttle":0.2}]
+CTE: , 0.6663 , Next Steering Value: -0.06663
+42["steer",{"steering_angle":-0.06663,"throttle":0.2}]
+CTE: , 0.674 , Next Steering Value: -0.0674
+42["steer",{"steering_angle":-0.0674,"throttle":0.2}]
+CTE: , 0.68 , Next Steering Value: -0.068
+42["steer",{"steering_angle":-0.068,"throttle":0.2}]
+CTE: , 0.6819 , Next Steering Value: -0.06819
+42["steer",{"steering_angle":-0.06819,"throttle":0.2}]
+CTE: , 0.6802 , Next Steering Value: -0.06802
+42["steer",{"steering_angle":-0.06802,"throttle":0.2}]
+CTE: , 0.6726 , Next Steering Value: -0.06726
+42["steer",{"steering_angle":-0.06726,"throttle":0.2}]
+CTE: , 0.6639 , Next Steering Value: -0.06639
+42["steer",{"steering_angle":-0.06639,"throttle":0.2}]
+CTE: , 0.6493 , Next Steering Value: -0.06493
+42["steer",{"steering_angle":-0.06493,"throttle":0.2}]
+CTE: , 0.6302 , Next Steering Value: -0.06302
+42["steer",{"steering_angle":-0.06302,"throttle":0.2}]
+CTE: , 0.6119 , Next Steering Value: -0.06119
+42["steer",{"steering_angle":-0.06119,"throttle":0.2}]
+CTE: , 0.5855 , Next Steering Value: -0.05855
+42["steer",{"steering_angle":-0.05855,"throttle":0.2}]
+CTE: , 0.5549 , Next Steering Value: -0.05549
+42["steer",{"steering_angle":-0.05549,"throttle":0.2}]
+CTE: , 0.5207 , Next Steering Value: -0.05207
+42["steer",{"steering_angle":-0.05207,"throttle":0.2}]
+CTE: , 0.4827 , Next Steering Value: -0.04827
+42["steer",{"steering_angle":-0.04827,"throttle":0.2}]
+CTE: , 0.433 , Next Steering Value: -0.0433
+42["steer",{"steering_angle":-0.0433,"throttle":0.2}]
+CTE: , 0.3884 , Next Steering Value: -0.03884
+42["steer",{"steering_angle":-0.03884,"throttle":0.2}]
+CTE: , 0.341 , Next Steering Value: -0.0341
+42["steer",{"steering_angle":-0.0341,"throttle":0.2}]
+CTE: , 0.3016 , Next Steering Value: -0.03016
+42["steer",{"steering_angle":-0.03016,"throttle":0.2}]
+CTE: , 0.251 , Next Steering Value: -0.0251
+42["steer",{"steering_angle":-0.0251,"throttle":0.2}]
+CTE: , 0.1989 , Next Steering Value: -0.01989
+42["steer",{"steering_angle":-0.01989,"throttle":0.2}]
+CTE: , 0.1247 , Next Steering Value: -0.01247
+42["steer",{"steering_angle":-0.01247,"throttle":0.2}]
+CTE: , 0.075 , Next Steering Value: -0.0075
+42["steer",{"steering_angle":-0.0075,"throttle":0.2}]
+CTE: , 0.0357 , Next Steering Value: -0.00357
+42["steer",{"steering_angle":-0.00357,"throttle":0.2}]
+CTE: , 0.0198 , Next Steering Value: -0.00198
+42["steer",{"steering_angle":-0.00198,"throttle":0.2}]
+CTE: , 0.0107 , Next Steering Value: -0.00107
+42["steer",{"steering_angle":-0.00107,"throttle":0.2}]
+CTE: , -0.0011 , Next Steering Value: 0.00011
+42["steer",{"steering_angle":0.00011,"throttle":0.2}]
+CTE: , -0.0076 , Next Steering Value: 0.00076
+42["steer",{"steering_angle":0.00076,"throttle":0.2}]
+CTE: , -0.0154 , Next Steering Value: 0.00154
+42["steer",{"steering_angle":0.00154,"throttle":0.2}]
+CTE: , -0.0199 , Next Steering Value: 0.00199
+42["steer",{"steering_angle":0.00199,"throttle":0.2}]
+CTE: , -0.0222 , Next Steering Value: 0.00222
+42["steer",{"steering_angle":0.00222,"throttle":0.2}]
+CTE: , -0.0232 , Next Steering Value: 0.00232
+42["steer",{"steering_angle":0.00232,"throttle":0.2}]
+CTE: , -0.0222 , Next Steering Value: 0.00222
+42["steer",{"steering_angle":0.00222,"throttle":0.2}]
+CTE: , -0.0192 , Next Steering Value: 0.00192
+42["steer",{"steering_angle":0.00192,"throttle":0.2}]
+CTE: , -0.0142 , Next Steering Value: 0.00142
+42["steer",{"steering_angle":0.00142,"throttle":0.2}]
+CTE: , -0.0071 , Next Steering Value: 0.00071
+42["steer",{"steering_angle":0.00071,"throttle":0.2}]
+CTE: , 0.002 , Next Steering Value: -0.0002
+42["steer",{"steering_angle":-0.0002,"throttle":0.2}]
+CTE: , 0.0107 , Next Steering Value: -0.00107
+42["steer",{"steering_angle":-0.00107,"throttle":0.2}]
+CTE: , 0.026 , Next Steering Value: -0.0026
+42["steer",{"steering_angle":-0.0026,"throttle":0.2}]
+CTE: , 0.0406 , Next Steering Value: -0.00406
+42["steer",{"steering_angle":-0.00406,"throttle":0.2}]
+CTE: , 0.057 , Next Steering Value: -0.0057
+42["steer",{"steering_angle":-0.0057,"throttle":0.2}]
+CTE: , 0.0712 , Next Steering Value: -0.00712
+42["steer",{"steering_angle":-0.00712,"throttle":0.2}]
+CTE: , 0.0901 , Next Steering Value: -0.00901
+42["steer",{"steering_angle":-0.00901,"throttle":0.2}]
+CTE: , 0.1102 , Next Steering Value: -0.01102
+42["steer",{"steering_angle":-0.01102,"throttle":0.2}]
+CTE: , 0.127 , Next Steering Value: -0.0127
+42["steer",{"steering_angle":-0.0127,"throttle":0.2}]
+CTE: , 0.1444 , Next Steering Value: -0.01444
+42["steer",{"steering_angle":-0.01444,"throttle":0.2}]
+CTE: , 0.1666 , Next Steering Value: -0.01666
+42["steer",{"steering_angle":-0.01666,"throttle":0.2}]
+CTE: , 0.1893 , Next Steering Value: -0.01893
+42["steer",{"steering_angle":-0.01893,"throttle":0.2}]
+CTE: , 0.212 , Next Steering Value: -0.0212
+42["steer",{"steering_angle":-0.0212,"throttle":0.2}]
+CTE: , 0.2545 , Next Steering Value: -0.02545
+42["steer",{"steering_angle":-0.02545,"throttle":0.2}]
+CTE: , 0.3116 , Next Steering Value: -0.03116
+42["steer",{"steering_angle":-0.03116,"throttle":0.2}]
+CTE: , 0.3613 , Next Steering Value: -0.03613
+42["steer",{"steering_angle":-0.03613,"throttle":0.2}]
+CTE: , 0.4223 , Next Steering Value: -0.04223
+42["steer",{"steering_angle":-0.04223,"throttle":0.2}]
+CTE: , 0.4815 , Next Steering Value: -0.04815
+42["steer",{"steering_angle":-0.04815,"throttle":0.2}]
+CTE: , 0.5271 , Next Steering Value: -0.05271
+42["steer",{"steering_angle":-0.05271,"throttle":0.2}]
+CTE: , 0.5706 , Next Steering Value: -0.05706
+42["steer",{"steering_angle":-0.05706,"throttle":0.2}]
+CTE: , 0.6213 , Next Steering Value: -0.06213
+42["steer",{"steering_angle":-0.06213,"throttle":0.2}]
+CTE: , 0.6679 , Next Steering Value: -0.06679
+42["steer",{"steering_angle":-0.06679,"throttle":0.2}]
+CTE: , 0.7016 , Next Steering Value: -0.07016
+42["steer",{"steering_angle":-0.07016,"throttle":0.2}]
+CTE: , 0.7387 , Next Steering Value: -0.07387
+42["steer",{"steering_angle":-0.07387,"throttle":0.2}]
+CTE: , 0.7641 , Next Steering Value: -0.07641
+42["steer",{"steering_angle":-0.07641,"throttle":0.2}]
+CTE: , 0.7945 , Next Steering Value: -0.07945
+42["steer",{"steering_angle":-0.07945,"throttle":0.2}]
+CTE: , 0.8094 , Next Steering Value: -0.08094
+42["steer",{"steering_angle":-0.08094,"throttle":0.2}]
+CTE: , 0.8196 , Next Steering Value: -0.08196
+42["steer",{"steering_angle":-0.08196,"throttle":0.2}]
+CTE: , 0.8257 , Next Steering Value: -0.08257
+42["steer",{"steering_angle":-0.08257,"throttle":0.2}]
+CTE: , 0.8251 , Next Steering Value: -0.08251
+42["steer",{"steering_angle":-0.08251,"throttle":0.2}]
+CTE: , 0.8195 , Next Steering Value: -0.08195
+42["steer",{"steering_angle":-0.08195,"throttle":0.2}]
+CTE: , 0.809 , Next Steering Value: -0.0809
+42["steer",{"steering_angle":-0.0809,"throttle":0.2}]
+CTE: , 0.7889 , Next Steering Value: -0.07889
+42["steer",{"steering_angle":-0.07889,"throttle":0.2}]
+CTE: , 0.7672 , Next Steering Value: -0.07672
+42["steer",{"steering_angle":-0.07672,"throttle":0.2}]
+CTE: , 0.7333 , Next Steering Value: -0.07333
+42["steer",{"steering_angle":-0.07333,"throttle":0.2}]
+CTE: , 0.6922 , Next Steering Value: -0.06922
+42["steer",{"steering_angle":-0.06922,"throttle":0.2}]
+CTE: , 0.6542 , Next Steering Value: -0.06542
+42["steer",{"steering_angle":-0.06542,"throttle":0.2}]
+CTE: , 0.6121 , Next Steering Value: -0.06121
+42["steer",{"steering_angle":-0.06121,"throttle":0.2}]
+CTE: , 0.566 , Next Steering Value: -0.0566
+42["steer",{"steering_angle":-0.0566,"throttle":0.2}]
+CTE: , 0.5033 , Next Steering Value: -0.05033
+42["steer",{"steering_angle":-0.05033,"throttle":0.2}]
+CTE: , 0.4357 , Next Steering Value: -0.04357
+42["steer",{"steering_angle":-0.04357,"throttle":0.2}]
+CTE: , 0.3814 , Next Steering Value: -0.03814
+42["steer",{"steering_angle":-0.03814,"throttle":0.2}]
+CTE: , 0.3454 , Next Steering Value: -0.03454
+42["steer",{"steering_angle":-0.03454,"throttle":0.2}]
+CTE: , 0.313 , Next Steering Value: -0.0313
+42["steer",{"steering_angle":-0.0313,"throttle":0.2}]
+CTE: , 0.3062 , Next Steering Value: -0.03062
+42["steer",{"steering_angle":-0.03062,"throttle":0.2}]
+CTE: , 0.2983 , Next Steering Value: -0.02983
+42["steer",{"steering_angle":-0.02983,"throttle":0.2}]
+CTE: , 0.2868 , Next Steering Value: -0.02868
+42["steer",{"steering_angle":-0.02868,"throttle":0.2}]
+CTE: , 0.2763 , Next Steering Value: -0.02763
+42["steer",{"steering_angle":-0.02763,"throttle":0.2}]
+CTE: , 0.2619 , Next Steering Value: -0.02619
+42["steer",{"steering_angle":-0.02619,"throttle":0.2}]
+CTE: , 0.2526 , Next Steering Value: -0.02526
+42["steer",{"steering_angle":-0.02526,"throttle":0.2}]
+CTE: , 0.2395 , Next Steering Value: -0.02395
+42["steer",{"steering_angle":-0.02395,"throttle":0.2}]
+CTE: , 0.2221 , Next Steering Value: -0.02221
+42["steer",{"steering_angle":-0.02221,"throttle":0.2}]
+CTE: , 0.2075 , Next Steering Value: -0.02075
+42["steer",{"steering_angle":-0.02075,"throttle":0.2}]
+CTE: , 0.1924 , Next Steering Value: -0.01924
+42["steer",{"steering_angle":-0.01924,"throttle":0.2}]
+CTE: , 0.1731 , Next Steering Value: -0.01731
+42["steer",{"steering_angle":-0.01731,"throttle":0.2}]
+CTE: , 0.1574 , Next Steering Value: -0.01574
+42["steer",{"steering_angle":-0.01574,"throttle":0.2}]
+CTE: , 0.1416 , Next Steering Value: -0.01416
+42["steer",{"steering_angle":-0.01416,"throttle":0.2}]
+CTE: , 0.1259 , Next Steering Value: -0.01259
+42["steer",{"steering_angle":-0.01259,"throttle":0.2}]
+CTE: , 0.1066 , Next Steering Value: -0.01066
+42["steer",{"steering_angle":-0.01066,"throttle":0.2}]
+CTE: , 0.0914 , Next Steering Value: -0.00914
+42["steer",{"steering_angle":-0.00914,"throttle":0.2}]
+CTE: , 0.0768 , Next Steering Value: -0.00768
+42["steer",{"steering_angle":-0.00768,"throttle":0.2}]
+CTE: , 0.0627 , Next Steering Value: -0.00627
+42["steer",{"steering_angle":-0.00627,"throttle":0.2}]
+CTE: , 0.0494 , Next Steering Value: -0.00494
+42["steer",{"steering_angle":-0.00494,"throttle":0.2}]
+CTE: , 0.0369 , Next Steering Value: -0.00369
+42["steer",{"steering_angle":-0.00369,"throttle":0.2}]
+CTE: , 0.0227 , Next Steering Value: -0.00227
+42["steer",{"steering_angle":-0.00227,"throttle":0.2}]
+CTE: , 0.0126 , Next Steering Value: -0.00126
+42["steer",{"steering_angle":-0.00126,"throttle":0.2}]
+CTE: , 0.0144 , Next Steering Value: -0.00144
+42["steer",{"steering_angle":-0.00144,"throttle":0.2}]
+CTE: , 0.0188 , Next Steering Value: -0.00188
+42["steer",{"steering_angle":-0.00188,"throttle":0.2}]
+CTE: , 0.0376 , Next Steering Value: -0.00376
+42["steer",{"steering_angle":-0.00376,"throttle":0.2}]
+CTE: , 0.058 , Next Steering Value: -0.0058
+42["steer",{"steering_angle":-0.0058,"throttle":0.2}]
+CTE: , 0.0796 , Next Steering Value: -0.00796
+42["steer",{"steering_angle":-0.00796,"throttle":0.2}]
+CTE: , 0.1023 , Next Steering Value: -0.01023
+42["steer",{"steering_angle":-0.01023,"throttle":0.2}]
+CTE: , 0.1259 , Next Steering Value: -0.01259
+42["steer",{"steering_angle":-0.01259,"throttle":0.2}]
+CTE: , 0.1503 , Next Steering Value: -0.01503
+42["steer",{"steering_angle":-0.01503,"throttle":0.2}]
+CTE: , 0.1751 , Next Steering Value: -0.01751
+42["steer",{"steering_angle":-0.01751,"throttle":0.2}]
+CTE: , 0.2067 , Next Steering Value: -0.02067
+42["steer",{"steering_angle":-0.02067,"throttle":0.2}]
+CTE: , 0.2321 , Next Steering Value: -0.02321
+42["steer",{"steering_angle":-0.02321,"throttle":0.2}]
+CTE: , 0.2574 , Next Steering Value: -0.02574
+42["steer",{"steering_angle":-0.02574,"throttle":0.2}]
+CTE: , 0.2823 , Next Steering Value: -0.02823
+42["steer",{"steering_angle":-0.02823,"throttle":0.2}]
+CTE: , 0.3066 , Next Steering Value: -0.03066
+42["steer",{"steering_angle":-0.03066,"throttle":0.2}]
+CTE: , 0.3302 , Next Steering Value: -0.03302
+42["steer",{"steering_angle":-0.03302,"throttle":0.2}]
+CTE: , 0.3582 , Next Steering Value: -0.03582
+42["steer",{"steering_angle":-0.03582,"throttle":0.2}]
+CTE: , 0.3793 , Next Steering Value: -0.03793
+42["steer",{"steering_angle":-0.03793,"throttle":0.2}]
+CTE: , 0.3989 , Next Steering Value: -0.03989
+42["steer",{"steering_angle":-0.03989,"throttle":0.2}]
+CTE: , 0.4168 , Next Steering Value: -0.04168
+42["steer",{"steering_angle":-0.04168,"throttle":0.2}]
+CTE: , 0.4329 , Next Steering Value: -0.04329
+42["steer",{"steering_angle":-0.04329,"throttle":0.2}]
+CTE: , 0.4502 , Next Steering Value: -0.04502
+42["steer",{"steering_angle":-0.04502,"throttle":0.2}]
+CTE: , 0.4615 , Next Steering Value: -0.04615
+42["steer",{"steering_angle":-0.04615,"throttle":0.2}]
+CTE: , 0.4872 , Next Steering Value: -0.04872
+42["steer",{"steering_angle":-0.04872,"throttle":0.2}]
+CTE: , 0.5255 , Next Steering Value: -0.05255
+42["steer",{"steering_angle":-0.05255,"throttle":0.2}]
+CTE: , 0.5818 , Next Steering Value: -0.05818
+42["steer",{"steering_angle":-0.05818,"throttle":0.2}]
+CTE: , 0.658 , Next Steering Value: -0.0658
+42["steer",{"steering_angle":-0.0658,"throttle":0.2}]
+CTE: , 0.7287 , Next Steering Value: -0.07287
+42["steer",{"steering_angle":-0.07287,"throttle":0.2}]
+CTE: , 0.7684 , Next Steering Value: -0.07684
+42["steer",{"steering_angle":-0.07684,"throttle":0.2}]
+CTE: , 0.8284 , Next Steering Value: -0.08284
+42["steer",{"steering_angle":-0.08284,"throttle":0.2}]
+CTE: , 0.8807 , Next Steering Value: -0.08807
+42["steer",{"steering_angle":-0.08807,"throttle":0.2}]
+CTE: , 0.9079 , Next Steering Value: -0.09079
+42["steer",{"steering_angle":-0.09079,"throttle":0.2}]
+CTE: , 0.9456 , Next Steering Value: -0.09456
+42["steer",{"steering_angle":-0.09456,"throttle":0.2}]
+CTE: , 0.9733 , Next Steering Value: -0.09733
+42["steer",{"steering_angle":-0.09733,"throttle":0.2}]
+CTE: , 0.988 , Next Steering Value: -0.0988
+42["steer",{"steering_angle":-0.0988,"throttle":0.2}]
+CTE: , 0.9956 , Next Steering Value: -0.09956
+42["steer",{"steering_angle":-0.09956,"throttle":0.2}]
+CTE: , 0.996 , Next Steering Value: -0.0996
+42["steer",{"steering_angle":-0.0996,"throttle":0.2}]
+CTE: , 0.989 , Next Steering Value: -0.0989
+42["steer",{"steering_angle":-0.0989,"throttle":0.2}]
+CTE: , 0.9698 , Next Steering Value: -0.09698
+42["steer",{"steering_angle":-0.09698,"throttle":0.2}]
+CTE: , 0.9461 , Next Steering Value: -0.09461
+42["steer",{"steering_angle":-0.09461,"throttle":0.2}]
+CTE: , 0.9064 , Next Steering Value: -0.09064
+42["steer",{"steering_angle":-0.09064,"throttle":0.2}]
+CTE: , 0.8665 , Next Steering Value: -0.08665
+42["steer",{"steering_angle":-0.08665,"throttle":0.2}]
+CTE: , 0.8198 , Next Steering Value: -0.08198
+42["steer",{"steering_angle":-0.08198,"throttle":0.2}]
+CTE: , 0.7666 , Next Steering Value: -0.07666
+42["steer",{"steering_angle":-0.07666,"throttle":0.2}]
+CTE: , 0.6913 , Next Steering Value: -0.06913
+42["steer",{"steering_angle":-0.06913,"throttle":0.2}]
+CTE: , 0.6421 , Next Steering Value: -0.06421
+42["steer",{"steering_angle":-0.06421,"throttle":0.2}]
+CTE: , 0.5718 , Next Steering Value: -0.05718
+42["steer",{"steering_angle":-0.05718,"throttle":0.2}]
+CTE: , 0.4969 , Next Steering Value: -0.04969
+42["steer",{"steering_angle":-0.04969,"throttle":0.2}]
+CTE: , 0.3976 , Next Steering Value: -0.03976
+42["steer",{"steering_angle":-0.03976,"throttle":0.2}]
+CTE: , 0.3355 , Next Steering Value: -0.03355
+42["steer",{"steering_angle":-0.03355,"throttle":0.2}]
+CTE: , 0.2504 , Next Steering Value: -0.02504
+42["steer",{"steering_angle":-0.02504,"throttle":0.2}]
+CTE: , 0.1634 , Next Steering Value: -0.01634
+42["steer",{"steering_angle":-0.01634,"throttle":0.2}]
+CTE: , 0.0752 , Next Steering Value: -0.00752
+42["steer",{"steering_angle":-0.00752,"throttle":0.2}]
+CTE: , -0.0134 , Next Steering Value: 0.00134
+42["steer",{"steering_angle":0.00134,"throttle":0.2}]
+CTE: , -0.1016 , Next Steering Value: 0.01016
+42["steer",{"steering_angle":0.01016,"throttle":0.2}]
+CTE: , 0.1886 , Next Steering Value: -0.01886
+42["steer",{"steering_angle":-0.01886,"throttle":0.2}]
+CTE: , -0.1841 , Next Steering Value: 0.01841
+42["steer",{"steering_angle":0.01841,"throttle":0.2}]
+CTE: , -0.1851 , Next Steering Value: 0.01851
+42["steer",{"steering_angle":0.01851,"throttle":0.2}]
+CTE: , -0.184 , Next Steering Value: 0.0184
+42["steer",{"steering_angle":0.0184,"throttle":0.2}]
+CTE: , -0.1796 , Next Steering Value: 0.01796
+42["steer",{"steering_angle":0.01796,"throttle":0.2}]
+CTE: , -0.1721 , Next Steering Value: 0.01721
+42["steer",{"steering_angle":0.01721,"throttle":0.2}]
+CTE: , -0.1614 , Next Steering Value: 0.01614
+42["steer",{"steering_angle":0.01614,"throttle":0.2}]
+CTE: , -0.1476 , Next Steering Value: 0.01476
+42["steer",{"steering_angle":0.01476,"throttle":0.2}]
+CTE: , -0.1306 , Next Steering Value: 0.01306
+42["steer",{"steering_angle":0.01306,"throttle":0.2}]
+CTE: , -0.1106 , Next Steering Value: 0.01106
+42["steer",{"steering_angle":0.01106,"throttle":0.2}]
+CTE: , -0.0937 , Next Steering Value: 0.00937
+42["steer",{"steering_angle":0.00937,"throttle":0.2}]
+CTE: , -0.0687 , Next Steering Value: 0.00687
+42["steer",{"steering_angle":0.00687,"throttle":0.2}]
+CTE: , -0.0337 , Next Steering Value: 0.00337
+42["steer",{"steering_angle":0.00337,"throttle":0.2}]
+CTE: , -0.0109 , Next Steering Value: 0.00109
+42["steer",{"steering_angle":0.00109,"throttle":0.2}]
+CTE: , 0.0214 , Next Steering Value: -0.00214
+42["steer",{"steering_angle":-0.00214,"throttle":0.2}]
+CTE: , 0.0556 , Next Steering Value: -0.00556
+42["steer",{"steering_angle":-0.00556,"throttle":0.2}]
+CTE: , 0.0914 , Next Steering Value: -0.00914
+42["steer",{"steering_angle":-0.00914,"throttle":0.2}]
+CTE: , 0.1287 , Next Steering Value: -0.01287
+42["steer",{"steering_angle":-0.01287,"throttle":0.2}]
+CTE: , 0.1705 , Next Steering Value: -0.01705
+42["steer",{"steering_angle":-0.01705,"throttle":0.2}]
+CTE: , 0.2575 , Next Steering Value: -0.02575
+42["steer",{"steering_angle":-0.02575,"throttle":0.2}]
+CTE: , 0.3227 , Next Steering Value: -0.03227
+42["steer",{"steering_angle":-0.03227,"throttle":0.2}]
+CTE: , 0.4096 , Next Steering Value: -0.04096
+42["steer",{"steering_angle":-0.04096,"throttle":0.2}]
+CTE: , 0.4954 , Next Steering Value: -0.04954
+42["steer",{"steering_angle":-0.04954,"throttle":0.2}]
+CTE: , 0.5795 , Next Steering Value: -0.05795
+42["steer",{"steering_angle":-0.05795,"throttle":0.2}]
+CTE: , 0.641 , Next Steering Value: -0.0641
+42["steer",{"steering_angle":-0.0641,"throttle":0.2}]
+CTE: , 0.72 , Next Steering Value: -0.072
+42["steer",{"steering_angle":-0.072,"throttle":0.2}]
+CTE: , 0.795 , Next Steering Value: -0.0795
+42["steer",{"steering_angle":-0.0795,"throttle":0.2}]
+CTE: , 0.8822 , Next Steering Value: -0.08822
+42["steer",{"steering_angle":-0.08822,"throttle":0.2}]
+CTE: , 0.9306 , Next Steering Value: -0.09306
+42["steer",{"steering_angle":-0.09306,"throttle":0.2}]
+CTE: , 0.9895 , Next Steering Value: -0.09895
+42["steer",{"steering_angle":-0.09895,"throttle":0.2}]
+CTE: , 1.0416 , Next Steering Value: -0.10416
+42["steer",{"steering_angle":-0.10416,"throttle":0.2}]
+CTE: , 1.0861 , Next Steering Value: -0.10861
+42["steer",{"steering_angle":-0.10861,"throttle":0.2}]
+CTE: , 1.1224 , Next Steering Value: -0.11224
+42["steer",{"steering_angle":-0.11224,"throttle":0.2}]
+CTE: , 1.15 , Next Steering Value: -0.115
+42["steer",{"steering_angle":-0.115,"throttle":0.2}]
+CTE: , 1.1685 , Next Steering Value: -0.11685
+42["steer",{"steering_angle":-0.11685,"throttle":0.2}]
+CTE: , 1.1761 , Next Steering Value: -0.11761
+42["steer",{"steering_angle":-0.11761,"throttle":0.2}]
+CTE: , 1.2092 , Next Steering Value: -0.12092
+42["steer",{"steering_angle":-0.12092,"throttle":0.2}]
+CTE: , 1.2536 , Next Steering Value: -0.12536
+42["steer",{"steering_angle":-0.12536,"throttle":0.2}]
+CTE: , 1.3265 , Next Steering Value: -0.13265
+42["steer",{"steering_angle":-0.13265,"throttle":0.2}]
+CTE: , 1.3963 , Next Steering Value: -0.13963
+42["steer",{"steering_angle":-0.13963,"throttle":0.2}]
+CTE: , 1.4553 , Next Steering Value: -0.14553
+42["steer",{"steering_angle":-0.14553,"throttle":0.2}]
+CTE: , 1.5028 , Next Steering Value: -0.15028
+42["steer",{"steering_angle":-0.15028,"throttle":0.2}]
+CTE: , 1.5306 , Next Steering Value: -0.15306
+42["steer",{"steering_angle":-0.15306,"throttle":0.2}]
+CTE: , 1.561 , Next Steering Value: -0.1561
+42["steer",{"steering_angle":-0.1561,"throttle":0.2}]
+CTE: , 1.5708 , Next Steering Value: -0.15708
+42["steer",{"steering_angle":-0.15708,"throttle":0.2}]
+CTE: , 1.5673 , Next Steering Value: -0.15673
+42["steer",{"steering_angle":-0.15673,"throttle":0.2}]
+CTE: , 1.5504 , Next Steering Value: -0.15504
+42["steer",{"steering_angle":-0.15504,"throttle":0.2}]
+CTE: , 1.5203 , Next Steering Value: -0.15203
+42["steer",{"steering_angle":-0.15203,"throttle":0.2}]
+CTE: , 1.489 , Next Steering Value: -0.1489
+42["steer",{"steering_angle":-0.1489,"throttle":0.2}]
+CTE: , 1.4361 , Next Steering Value: -0.14361
+42["steer",{"steering_angle":-0.14361,"throttle":0.2}]
+CTE: , 1.3707 , Next Steering Value: -0.13707
+42["steer",{"steering_angle":-0.13707,"throttle":0.2}]
+CTE: , 1.3136 , Next Steering Value: -0.13136
+42["steer",{"steering_angle":-0.13136,"throttle":0.2}]
+CTE: , 1.2271 , Next Steering Value: -0.12271
+42["steer",{"steering_angle":-0.12271,"throttle":0.2}]
+CTE: , 1.1546 , Next Steering Value: -0.11546
+42["steer",{"steering_angle":-0.11546,"throttle":0.2}]
+CTE: , 1.0488 , Next Steering Value: -0.10488
+42["steer",{"steering_angle":-0.10488,"throttle":0.2}]
+CTE: , 0.963 , Next Steering Value: -0.0963
+42["steer",{"steering_angle":-0.0963,"throttle":0.2}]
+CTE: , 0.8406 , Next Steering Value: -0.08406
+42["steer",{"steering_angle":-0.08406,"throttle":0.2}]
+CTE: , 0.7431 , Next Steering Value: -0.07431
+42["steer",{"steering_angle":-0.07431,"throttle":0.2}]
+CTE: , 0.6071 , Next Steering Value: -0.06071
+42["steer",{"steering_angle":-0.06071,"throttle":0.2}]
+CTE: , 0.501 , Next Steering Value: -0.0501
+42["steer",{"steering_angle":-0.0501,"throttle":0.2}]
+CTE: , 0.355 , Next Steering Value: -0.0355
+42["steer",{"steering_angle":-0.0355,"throttle":0.2}]
+CTE: , 0.205 , Next Steering Value: -0.0205
+42["steer",{"steering_angle":-0.0205,"throttle":0.2}]
+CTE: , 0.0905 , Next Steering Value: -0.00905
+42["steer",{"steering_angle":-0.00905,"throttle":0.2}]
+CTE: , -0.0631 , Next Steering Value: 0.00631
+42["steer",{"steering_angle":0.00631,"throttle":0.2}]
+CTE: , -0.2168 , Next Steering Value: 0.02168
+42["steer",{"steering_angle":0.02168,"throttle":0.2}]
+CTE: , -0.3313 , Next Steering Value: 0.03313
+42["steer",{"steering_angle":0.03313,"throttle":0.2}]
+CTE: , -0.4816 , Next Steering Value: 0.04816
+42["steer",{"steering_angle":0.04816,"throttle":0.2}]
+CTE: , -0.5919 , Next Steering Value: 0.05919
+42["steer",{"steering_angle":0.05919,"throttle":0.2}]
+CTE: , -0.7339 , Next Steering Value: 0.07339
+42["steer",{"steering_angle":0.07339,"throttle":0.2}]
+CTE: , -0.8671 , Next Steering Value: 0.08671
+42["steer",{"steering_angle":0.08671,"throttle":0.2}]
+CTE: , -0.9251 , Next Steering Value: 0.09251
+42["steer",{"steering_angle":0.09251,"throttle":0.2}]
+CTE: , -0.957 , Next Steering Value: 0.0957
+42["steer",{"steering_angle":0.0957,"throttle":0.2}]
+CTE: , -0.9728 , Next Steering Value: 0.09728
+42["steer",{"steering_angle":0.09728,"throttle":0.2}]
+CTE: , -0.9845 , Next Steering Value: 0.09845
+42["steer",{"steering_angle":0.09845,"throttle":0.2}]
+CTE: , -0.9859 , Next Steering Value: 0.09859
+42["steer",{"steering_angle":0.09859,"throttle":0.2}]
+CTE: , -0.9781 , Next Steering Value: 0.09781
+42["steer",{"steering_angle":0.09781,"throttle":0.2}]
+CTE: , -0.959 , Next Steering Value: 0.0959
+42["steer",{"steering_angle":0.0959,"throttle":0.2}]
+CTE: , -0.9285 , Next Steering Value: 0.09285
+42["steer",{"steering_angle":0.09285,"throttle":0.2}]
+CTE: , -0.8982 , Next Steering Value: 0.08982
+42["steer",{"steering_angle":0.08982,"throttle":0.2}]
+CTE: , -0.8482 , Next Steering Value: 0.08482
+42["steer",{"steering_angle":0.08482,"throttle":0.2}]
+CTE: , -0.8036 , Next Steering Value: 0.08036
+42["steer",{"steering_angle":0.08036,"throttle":0.2}]
+CTE: , -0.735 , Next Steering Value: 0.0735
+42["steer",{"steering_angle":0.0735,"throttle":0.2}]
+CTE: , -0.6565 , Next Steering Value: 0.06565
+42["steer",{"steering_angle":0.06565,"throttle":0.2}]
+CTE: , -0.5657 , Next Steering Value: 0.05657
+42["steer",{"steering_angle":0.05657,"throttle":0.2}]
+CTE: , -0.4489 , Next Steering Value: 0.04489
+42["steer",{"steering_angle":0.04489,"throttle":0.2}]
+CTE: , -0.235 , Next Steering Value: 0.0235
+42["steer",{"steering_angle":0.0235,"throttle":0.2}]
+CTE: , -0.0662 , Next Steering Value: 0.00662
+42["steer",{"steering_angle":0.00662,"throttle":0.2}]
+CTE: , 0.2212 , Next Steering Value: -0.02212
+42["steer",{"steering_angle":-0.02212,"throttle":0.2}]
+CTE: , 0.3965 , Next Steering Value: -0.03965
+42["steer",{"steering_angle":-0.03965,"throttle":0.2}]
+CTE: , 0.6309 , Next Steering Value: -0.06309
+42["steer",{"steering_angle":-0.06309,"throttle":0.2}]
+CTE: , 0.8062 , Next Steering Value: -0.08062
+42["steer",{"steering_angle":-0.08062,"throttle":0.2}]
+CTE: , 1.0369 , Next Steering Value: -0.10369
+42["steer",{"steering_angle":-0.10369,"throttle":0.2}]
+CTE: , 1.2626 , Next Steering Value: -0.12626
+42["steer",{"steering_angle":-0.12626,"throttle":0.2}]
+CTE: , 1.4273 , Next Steering Value: -0.14273
+42["steer",{"steering_angle":-0.14273,"throttle":0.2}]
+CTE: , 1.6898 , Next Steering Value: -0.16898
+42["steer",{"steering_angle":-0.16898,"throttle":0.2}]
+CTE: , 1.8391 , Next Steering Value: -0.18391
+42["steer",{"steering_angle":-0.18391,"throttle":0.2}]
+CTE: , 2.0262 , Next Steering Value: -0.20262
+42["steer",{"steering_angle":-0.20262,"throttle":0.2}]
+CTE: , 2.1566 , Next Steering Value: -0.21566
+42["steer",{"steering_angle":-0.21566,"throttle":0.2}]
+CTE: , 2.3155 , Next Steering Value: -0.23155
+42["steer",{"steering_angle":-0.23155,"throttle":0.2}]
+CTE: , 2.4558 , Next Steering Value: -0.24558
+42["steer",{"steering_angle":-0.24558,"throttle":0.2}]
+CTE: , 2.5755 , Next Steering Value: -0.25755
+42["steer",{"steering_angle":-0.25755,"throttle":0.2}]
+CTE: , 2.6508 , Next Steering Value: -0.26508
+42["steer",{"steering_angle":-0.26508,"throttle":0.2}]
+CTE: , 2.7145 , Next Steering Value: -0.27145
+42["steer",{"steering_angle":-0.27145,"throttle":0.2}]
+CTE: , 2.8194 , Next Steering Value: -0.28194
+42["steer",{"steering_angle":-0.28194,"throttle":0.2}]
+CTE: , 2.9651 , Next Steering Value: -0.29651
+42["steer",{"steering_angle":-0.29651,"throttle":0.2}]
+CTE: , 3.0826 , Next Steering Value: -0.30826
+42["steer",{"steering_angle":-0.30826,"throttle":0.2}]
+CTE: , 3.2155 , Next Steering Value: -0.32155
+42["steer",{"steering_angle":-0.32155,"throttle":0.2}]
+CTE: , 3.3201 , Next Steering Value: -0.33201
+42["steer",{"steering_angle":-0.33201,"throttle":0.2}]
+CTE: , 3.395 , Next Steering Value: -0.3395
+42["steer",{"steering_angle":-0.3395,"throttle":0.2}]
+CTE: , 3.4311 , Next Steering Value: -0.34311
+42["steer",{"steering_angle":-0.34311,"throttle":0.2}]
+CTE: , 3.4514 , Next Steering Value: -0.34514
+42["steer",{"steering_angle":-0.34514,"throttle":0.2}]
+CTE: , 3.4397 , Next Steering Value: -0.34397
+42["steer",{"steering_angle":-0.34397,"throttle":0.2}]
+CTE: , 3.3955 , Next Steering Value: -0.33955
+42["steer",{"steering_angle":-0.33955,"throttle":0.2}]
+CTE: , 3.341 , Next Steering Value: -0.3341
+42["steer",{"steering_angle":-0.3341,"throttle":0.2}]
+CTE: , 3.2685 , Next Steering Value: -0.32685
+42["steer",{"steering_angle":-0.32685,"throttle":0.2}]
+CTE: , 3.0705 , Next Steering Value: -0.30705
+42["steer",{"steering_angle":-0.30705,"throttle":0.2}]
+CTE: , 2.847 , Next Steering Value: -0.2847
+42["steer",{"steering_angle":-0.2847,"throttle":0.2}]
+CTE: , 2.7484 , Next Steering Value: -0.27484
+42["steer",{"steering_angle":-0.27484,"throttle":0.2}]
+CTE: , 2.613 , Next Steering Value: -0.2613
+42["steer",{"steering_angle":-0.2613,"throttle":0.2}]
+CTE: , 2.4949 , Next Steering Value: -0.24949
+42["steer",{"steering_angle":-0.24949,"throttle":0.2}]
+CTE: , 2.2677 , Next Steering Value: -0.22677
+42["steer",{"steering_angle":-0.22677,"throttle":0.2}]
+CTE: , 2.0596 , Next Steering Value: -0.20596
+42["steer",{"steering_angle":-0.20596,"throttle":0.2}]
+CTE: , 1.83 , Next Steering Value: -0.183
+42["steer",{"steering_angle":-0.183,"throttle":0.2}]
+CTE: , 1.5809 , Next Steering Value: -0.15809
+42["steer",{"steering_angle":-0.15809,"throttle":0.2}]
+CTE: , 1.3147 , Next Steering Value: -0.13147
+42["steer",{"steering_angle":-0.13147,"throttle":0.2}]
+CTE: , 0.8878 , Next Steering Value: -0.08878
+42["steer",{"steering_angle":-0.08878,"throttle":0.2}]
+CTE: , 0.6635 , Next Steering Value: -0.06635
+42["steer",{"steering_angle":-0.06635,"throttle":0.2}]
+CTE: , 0.3572 , Next Steering Value: -0.03572
+42["steer",{"steering_angle":-0.03572,"throttle":0.2}]
+CTE: , 0.1234 , Next Steering Value: -0.01234
+42["steer",{"steering_angle":-0.01234,"throttle":0.2}]
+CTE: , -0.1914 , Next Steering Value: 0.01914
+42["steer",{"steering_angle":0.01914,"throttle":0.2}]
+CTE: , -0.5075 , Next Steering Value: 0.05075
+42["steer",{"steering_angle":0.05075,"throttle":0.2}]
+CTE: , -0.822 , Next Steering Value: 0.0822
+42["steer",{"steering_angle":0.0822,"throttle":0.2}]
+CTE: , -1.0549 , Next Steering Value: 0.10549
+42["steer",{"steering_angle":0.10549,"throttle":0.2}]
+CTE: , -1.3585 , Next Steering Value: 0.13585
+42["steer",{"steering_angle":0.13585,"throttle":0.2}]
+CTE: , -1.5796 , Next Steering Value: 0.15796
+42["steer",{"steering_angle":0.15796,"throttle":0.2}]
+CTE: , -1.8628 , Next Steering Value: 0.18628
+42["steer",{"steering_angle":0.18628,"throttle":0.2}]
+CTE: , -2.0652 , Next Steering Value: 0.20652
+42["steer",{"steering_angle":0.20652,"throttle":0.2}]
+CTE: , -2.2395 , Next Steering Value: 0.22395
+42["steer",{"steering_angle":0.22395,"throttle":0.2}]
+CTE: , -2.2809 , Next Steering Value: 0.22809
+42["steer",{"steering_angle":0.22809,"throttle":0.2}]
+CTE: , -2.2906 , Next Steering Value: 0.22906
+42["steer",{"steering_angle":0.22906,"throttle":0.2}]
+CTE: , -2.2825 , Next Steering Value: 0.22825
+42["steer",{"steering_angle":0.22825,"throttle":0.2}]
+CTE: , -2.2604 , Next Steering Value: 0.22604
+42["steer",{"steering_angle":0.22604,"throttle":0.2}]
+CTE: , -2.2097 , Next Steering Value: 0.22097
+42["steer",{"steering_angle":0.22097,"throttle":0.2}]
+CTE: , -2.1557 , Next Steering Value: 0.21557
+42["steer",{"steering_angle":0.21557,"throttle":0.2}]
+CTE: , -2.0882 , Next Steering Value: 0.20882
+42["steer",{"steering_angle":0.20882,"throttle":0.2}]
+CTE: , -1.9776 , Next Steering Value: 0.19776
+42["steer",{"steering_angle":0.19776,"throttle":0.2}]
+CTE: , -1.8795 , Next Steering Value: 0.18795
+42["steer",{"steering_angle":0.18795,"throttle":0.2}]
+CTE: , -1.7691 , Next Steering Value: 0.17691
+42["steer",{"steering_angle":0.17691,"throttle":0.2}]
+CTE: , -1.6035 , Next Steering Value: 0.16035
+42["steer",{"steering_angle":0.16035,"throttle":0.2}]
+CTE: , -1.466 , Next Steering Value: 0.1466
+42["steer",{"steering_angle":0.1466,"throttle":0.2}]
+CTE: , -1.3181 , Next Steering Value: 0.13181
+42["steer",{"steering_angle":0.13181,"throttle":0.2}]
+CTE: , -1.1606 , Next Steering Value: 0.11606
+42["steer",{"steering_angle":0.11606,"throttle":0.2}]
+CTE: , -0.9369 , Next Steering Value: 0.09369
+42["steer",{"steering_angle":0.09369,"throttle":0.2}]
+CTE: , -0.6642 , Next Steering Value: 0.06642
+42["steer",{"steering_angle":0.06642,"throttle":0.2}]
+CTE: , -0.416 , Next Steering Value: 0.0416
+42["steer",{"steering_angle":0.0416,"throttle":0.2}]
+CTE: , -0.162 , Next Steering Value: 0.0162
+42["steer",{"steering_angle":0.0162,"throttle":0.2}]
+CTE: , 0.1825 , Next Steering Value: -0.01825
+42["steer",{"steering_angle":-0.01825,"throttle":0.2}]
+CTE: , 0.4441 , Next Steering Value: -0.04441
+42["steer",{"steering_angle":-0.04441,"throttle":0.2}]
+CTE: , 0.7941 , Next Steering Value: -0.07941
+42["steer",{"steering_angle":-0.07941,"throttle":0.2}]
+CTE: , 1.056 , Next Steering Value: -0.1056
+42["steer",{"steering_angle":-0.1056,"throttle":0.2}]
+CTE: , 1.3156 , Next Steering Value: -0.13156
+42["steer",{"steering_angle":-0.13156,"throttle":0.2}]
+CTE: , 1.6557 , Next Steering Value: -0.16557
+42["steer",{"steering_angle":-0.16557,"throttle":0.2}]
+CTE: , 1.905 , Next Steering Value: -0.1905
+42["steer",{"steering_angle":-0.1905,"throttle":0.2}]
+CTE: , 2.1473 , Next Steering Value: -0.21473
+42["steer",{"steering_angle":-0.21473,"throttle":0.2}]
+CTE: , 2.457 , Next Steering Value: -0.2457
+42["steer",{"steering_angle":-0.2457,"throttle":0.2}]
+CTE: , 2.4053 , Next Steering Value: -0.24053
+42["steer",{"steering_angle":-0.24053,"throttle":0.2}]
+CTE: , 2.8416 , Next Steering Value: -0.28416
+42["steer",{"steering_angle":-0.28416,"throttle":0.2}]
+CTE: , 3.227 , Next Steering Value: -0.3227
+42["steer",{"steering_angle":-0.3227,"throttle":0.2}]
+CTE: , 3.4626 , Next Steering Value: -0.34626
+42["steer",{"steering_angle":-0.34626,"throttle":0.2}]
+CTE: , 3.7236 , Next Steering Value: -0.37236
+42["steer",{"steering_angle":-0.37236,"throttle":0.2}]
+CTE: , 4.0539 , Next Steering Value: -0.40539
+42["steer",{"steering_angle":-0.40539,"throttle":0.2}]
+CTE: , 4.279 , Next Steering Value: -0.4279
+42["steer",{"steering_angle":-0.4279,"throttle":0.2}]
+CTE: , 4.4915 , Next Steering Value: -0.44915
+42["steer",{"steering_angle":-0.44915,"throttle":0.2}]
+CTE: , 4.701 , Next Steering Value: -0.4701
+42["steer",{"steering_angle":-0.4701,"throttle":0.2}]
+CTE: , 4.9646 , Next Steering Value: -0.49646
+42["steer",{"steering_angle":-0.49646,"throttle":0.2}]
+CTE: , 5.1289 , Next Steering Value: -0.51289
+42["steer",{"steering_angle":-0.51289,"throttle":0.2}]
+CTE: , 5.2716 , Next Steering Value: -0.52716
+42["steer",{"steering_angle":-0.52716,"throttle":0.2}]
+CTE: , 5.4141 , Next Steering Value: -0.54141
+42["steer",{"steering_angle":-0.54141,"throttle":0.2}]
+CTE: , 5.6035 , Next Steering Value: -0.56035
+42["steer",{"steering_angle":-0.56035,"throttle":0.2}]
+CTE: , 5.7474 , Next Steering Value: -0.57474
+42["steer",{"steering_angle":-0.57474,"throttle":0.2}]
+CTE: , 5.8899 , Next Steering Value: -0.58899
+42["steer",{"steering_angle":-0.58899,"throttle":0.2}]
+CTE: , 6.0042 , Next Steering Value: -0.60042
+42["steer",{"steering_angle":-0.60042,"throttle":0.2}]
+CTE: , 6.038 , Next Steering Value: -0.6038
+42["steer",{"steering_angle":-0.6038,"throttle":0.2}]
+CTE: , 6.0481 , Next Steering Value: -0.60481
+42["steer",{"steering_angle":-0.60481,"throttle":0.2}]
+CTE: , 6.0596 , Next Steering Value: -0.60596
+42["steer",{"steering_angle":-0.60596,"throttle":0.2}]
+CTE: , 6.0576 , Next Steering Value: -0.60576
+42["steer",{"steering_angle":-0.60576,"throttle":0.2}]
+CTE: , 6.0506 , Next Steering Value: -0.60506
+42["steer",{"steering_angle":-0.60506,"throttle":0.2}]
+CTE: , 6.0372 , Next Steering Value: -0.60372
+42["steer",{"steering_angle":-0.60372,"throttle":0.2}]
+CTE: , 6.0239 , Next Steering Value: -0.60239
+42["steer",{"steering_angle":-0.60239,"throttle":0.2}]
+CTE: , 6.0075 , Next Steering Value: -0.60075
+42["steer",{"steering_angle":-0.60075,"throttle":0.2}]
+CTE: , 5.9913 , Next Steering Value: -0.59913
+42["steer",{"steering_angle":-0.59913,"throttle":0.2}]
+CTE: , 5.9988 , Next Steering Value: -0.59988
+42["steer",{"steering_angle":-0.59988,"throttle":0.2}]
+CTE: , 6.0083 , Next Steering Value: -0.60083
+42["steer",{"steering_angle":-0.60083,"throttle":0.2}]
+CTE: , 6.02 , Next Steering Value: -0.602
+42["steer",{"steering_angle":-0.602,"throttle":0.2}]
+CTE: , 6.0295 , Next Steering Value: -0.60295
+42["steer",{"steering_angle":-0.60295,"throttle":0.2}]
+CTE: , 6.0396 , Next Steering Value: -0.60396
+42["steer",{"steering_angle":-0.60396,"throttle":0.2}]
+CTE: , 6.0437 , Next Steering Value: -0.60437
+42["steer",{"steering_angle":-0.60437,"throttle":0.2}]
+CTE: , 6.0508 , Next Steering Value: -0.60508
+42["steer",{"steering_angle":-0.60508,"throttle":0.2}]
+CTE: , 6.0555 , Next Steering Value: -0.60555
+42["steer",{"steering_angle":-0.60555,"throttle":0.2}]
+CTE: , 6.0597 , Next Steering Value: -0.60597
+42["steer",{"steering_angle":-0.60597,"throttle":0.2}]
+CTE: , 6.0633 , Next Steering Value: -0.60633
+42["steer",{"steering_angle":-0.60633,"throttle":0.2}]
+CTE: , 6.0674 , Next Steering Value: -0.60674
+42["steer",{"steering_angle":-0.60674,"throttle":0.2}]
+CTE: , 6.0702 , Next Steering Value: -0.60702
+42["steer",{"steering_angle":-0.60702,"throttle":0.2}]
+CTE: , 6.073 , Next Steering Value: -0.6073
+42["steer",{"steering_angle":-0.6073,"throttle":0.2}]
+CTE: , 6.0768 , Next Steering Value: -0.60768
+42["steer",{"steering_angle":-0.60768,"throttle":0.2}]
+CTE: , 6.0801 , Next Steering Value: -0.60801
+42["steer",{"steering_angle":-0.60801,"throttle":0.2}]
+CTE: , 6.085 , Next Steering Value: -0.6085
+42["steer",{"steering_angle":-0.6085,"throttle":0.2}]
+CTE: , 6.0895 , Next Steering Value: -0.60895
+42["steer",{"steering_angle":-0.60895,"throttle":0.2}]
+CTE: , 6.0937 , Next Steering Value: -0.60937
+42["steer",{"steering_angle":-0.60937,"throttle":0.2}]
+CTE: , 6.1001 , Next Steering Value: -0.61001
+42["steer",{"steering_angle":-0.61001,"throttle":0.2}]
+CTE: , 6.1034 , Next Steering Value: -0.61034
+42["steer",{"steering_angle":-0.61034,"throttle":0.2}]
+CTE: , 6.1064 , Next Steering Value: -0.61064
+42["steer",{"steering_angle":-0.61064,"throttle":0.2}]
+CTE: , 6.1098 , Next Steering Value: -0.61098
+42["steer",{"steering_angle":-0.61098,"throttle":0.2}]
+CTE: , 6.1119 , Next Steering Value: -0.61119
+42["steer",{"steering_angle":-0.61119,"throttle":0.2}]
+CTE: , 6.1137 , Next Steering Value: -0.61137
+42["steer",{"steering_angle":-0.61137,"throttle":0.2}]
+CTE: , 6.1152 , Next Steering Value: -0.61152
+42["steer",{"steering_angle":-0.61152,"throttle":0.2}]
+CTE: , 6.1172 , Next Steering Value: -0.61172
+42["steer",{"steering_angle":-0.61172,"throttle":0.2}]
+CTE: , 6.1186 , Next Steering Value: -0.61186
+42["steer",{"steering_angle":-0.61186,"throttle":0.2}]
+CTE: , 6.1204 , Next Steering Value: -0.61204
+42["steer",{"steering_angle":-0.61204,"throttle":0.2}]
+CTE: , 6.1216 , Next Steering Value: -0.61216
+42["steer",{"steering_angle":-0.61216,"throttle":0.2}]
+CTE: , 6.1234 , Next Steering Value: -0.61234
+42["steer",{"steering_angle":-0.61234,"throttle":0.2}]
+CTE: , 6.1248 , Next Steering Value: -0.61248
+42["steer",{"steering_angle":-0.61248,"throttle":0.2}]
+CTE: , 6.1261 , Next Steering Value: -0.61261
+42["steer",{"steering_angle":-0.61261,"throttle":0.2}]
+CTE: , 6.128 , Next Steering Value: -0.6128
+42["steer",{"steering_angle":-0.6128,"throttle":0.2}]
+CTE: , 6.1293 , Next Steering Value: -0.61293
+42["steer",{"steering_angle":-0.61293,"throttle":0.2}]
+CTE: , 6.1311 , Next Steering Value: -0.61311
+42["steer",{"steering_angle":-0.61311,"throttle":0.2}]
+CTE: , 6.1332 , Next Steering Value: -0.61332
+42["steer",{"steering_angle":-0.61332,"throttle":0.2}]
+CTE: , 6.136 , Next Steering Value: -0.6136
+42["steer",{"steering_angle":-0.6136,"throttle":0.2}]
+CTE: , 6.1389 , Next Steering Value: -0.61389
+42["steer",{"steering_angle":-0.61389,"throttle":0.2}]
+CTE: , 6.1423 , Next Steering Value: -0.61423
+42["steer",{"steering_angle":-0.61423,"throttle":0.2}]
+CTE: , 6.1457 , Next Steering Value: -0.61457
+42["steer",{"steering_angle":-0.61457,"throttle":0.2}]
+CTE: , 6.1483 , Next Steering Value: -0.61483
+42["steer",{"steering_angle":-0.61483,"throttle":0.2}]
+CTE: , 6.151 , Next Steering Value: -0.6151
+42["steer",{"steering_angle":-0.6151,"throttle":0.2}]
+CTE: , 6.1536 , Next Steering Value: -0.61536
+42["steer",{"steering_angle":-0.61536,"throttle":0.2}]
+CTE: , 6.1563 , Next Steering Value: -0.61563
+42["steer",{"steering_angle":-0.61563,"throttle":0.2}]
+CTE: , 6.159 , Next Steering Value: -0.6159
+42["steer",{"steering_angle":-0.6159,"throttle":0.2}]
+CTE: , 6.1626 , Next Steering Value: -0.61626
+42["steer",{"steering_angle":-0.61626,"throttle":0.2}]
+CTE: , 6.165 , Next Steering Value: -0.6165
+42["steer",{"steering_angle":-0.6165,"throttle":0.2}]
+CTE: , 6.1676 , Next Steering Value: -0.61676
+42["steer",{"steering_angle":-0.61676,"throttle":0.2}]
+CTE: , 6.1701 , Next Steering Value: -0.61701
+42["steer",{"steering_angle":-0.61701,"throttle":0.2}]
+CTE: , 6.1733 , Next Steering Value: -0.61733
+42["steer",{"steering_angle":-0.61733,"throttle":0.2}]
+CTE: , 6.1757 , Next Steering Value: -0.61757
+42["steer",{"steering_angle":-0.61757,"throttle":0.2}]
+CTE: , 6.1782 , Next Steering Value: -0.61782
+42["steer",{"steering_angle":-0.61782,"throttle":0.2}]
+CTE: , 6.1815 , Next Steering Value: -0.61815
+42["steer",{"steering_angle":-0.61815,"throttle":0.2}]
+CTE: , 6.1862 , Next Steering Value: -0.61862
+42["steer",{"steering_angle":-0.61862,"throttle":0.2}]
+CTE: , 6.1912 , Next Steering Value: -0.61912
+42["steer",{"steering_angle":-0.61912,"throttle":0.2}]
+CTE: , 6.1959 , Next Steering Value: -0.61959
+42["steer",{"steering_angle":-0.61959,"throttle":0.2}]
+CTE: , 6.201 , Next Steering Value: -0.6201
+42["steer",{"steering_angle":-0.6201,"throttle":0.2}]
+CTE: , 6.2042 , Next Steering Value: -0.62042
+42["steer",{"steering_angle":-0.62042,"throttle":0.2}]
+CTE: , 6.2074 , Next Steering Value: -0.62074
+42["steer",{"steering_angle":-0.62074,"throttle":0.2}]
+CTE: , 6.2119 , Next Steering Value: -0.62119
+42["steer",{"steering_angle":-0.62119,"throttle":0.2}]
+CTE: , 6.2164 , Next Steering Value: -0.62164
+42["steer",{"steering_angle":-0.62164,"throttle":0.2}]
+CTE: , 6.2212 , Next Steering Value: -0.62212
+42["steer",{"steering_angle":-0.62212,"throttle":0.2}]
+CTE: , 6.2254 , Next Steering Value: -0.62254
+42["steer",{"steering_angle":-0.62254,"throttle":0.2}]
+CTE: , 6.2302 , Next Steering Value: -0.62302
+42["steer",{"steering_angle":-0.62302,"throttle":0.2}]
+CTE: , 6.2333 , Next Steering Value: -0.62333
+42["steer",{"steering_angle":-0.62333,"throttle":0.2}]
+CTE: , 6.2411 , Next Steering Value: -0.62411
+42["steer",{"steering_angle":-0.62411,"throttle":0.2}]
+CTE: , 6.2461 , Next Steering Value: -0.62461
+42["steer",{"steering_angle":-0.62461,"throttle":0.2}]
+CTE: , 6.2499 , Next Steering Value: -0.62499
+42["steer",{"steering_angle":-0.62499,"throttle":0.2}]
+CTE: , 6.2524 , Next Steering Value: -0.62524
+42["steer",{"steering_angle":-0.62524,"throttle":0.2}]
+CTE: , 6.2551 , Next Steering Value: -0.62551
+42["steer",{"steering_angle":-0.62551,"throttle":0.2}]
+CTE: , 6.2581 , Next Steering Value: -0.62581
+42["steer",{"steering_angle":-0.62581,"throttle":0.2}]
+CTE: , 6.2613 , Next Steering Value: -0.62613
+42["steer",{"steering_angle":-0.62613,"throttle":0.2}]
+CTE: , 6.2644 , Next Steering Value: -0.62644
+42["steer",{"steering_angle":-0.62644,"throttle":0.2}]
+CTE: , 6.2675 , Next Steering Value: -0.62675
+42["steer",{"steering_angle":-0.62675,"throttle":0.2}]
+CTE: , 6.2707 , Next Steering Value: -0.62707
+42["steer",{"steering_angle":-0.62707,"throttle":0.2}]
+CTE: , 6.2736 , Next Steering Value: -0.62736
+42["steer",{"steering_angle":-0.62736,"throttle":0.2}]
+CTE: , 6.2774 , Next Steering Value: -0.62774
+42["steer",{"steering_angle":-0.62774,"throttle":0.2}]
+CTE: , 6.2804 , Next Steering Value: -0.62804
+42["steer",{"steering_angle":-0.62804,"throttle":0.2}]
+CTE: , 6.2836 , Next Steering Value: -0.62836
+42["steer",{"steering_angle":-0.62836,"throttle":0.2}]
+CTE: , 6.2878 , Next Steering Value: -0.62878
+42["steer",{"steering_angle":-0.62878,"throttle":0.2}]
+CTE: , 6.291 , Next Steering Value: -0.6291
+42["steer",{"steering_angle":-0.6291,"throttle":0.2}]
+CTE: , 6.294 , Next Steering Value: -0.6294
+42["steer",{"steering_angle":-0.6294,"throttle":0.2}]
+CTE: , 6.2972 , Next Steering Value: -0.62972
+42["steer",{"steering_angle":-0.62972,"throttle":0.2}]
+CTE: , 6.3003 , Next Steering Value: -0.63003
+42["steer",{"steering_angle":-0.63003,"throttle":0.2}]
+CTE: , 6.3031 , Next Steering Value: -0.63031
+42["steer",{"steering_angle":-0.63031,"throttle":0.2}]
+CTE: , 6.3056 , Next Steering Value: -0.63056
+42["steer",{"steering_angle":-0.63056,"throttle":0.2}]
+CTE: , 6.3073 , Next Steering Value: -0.63073
+42["steer",{"steering_angle":-0.63073,"throttle":0.2}]
+CTE: , 6.3099 , Next Steering Value: -0.63099
+42["steer",{"steering_angle":-0.63099,"throttle":0.2}]
+CTE: , 6.3128 , Next Steering Value: -0.63128
+42["steer",{"steering_angle":-0.63128,"throttle":0.2}]
+CTE: , 6.3155 , Next Steering Value: -0.63155
+42["steer",{"steering_angle":-0.63155,"throttle":0.2}]
+CTE: , 6.3182 , Next Steering Value: -0.63182
+42["steer",{"steering_angle":-0.63182,"throttle":0.2}]
+CTE: , 6.32 , Next Steering Value: -0.632
+42["steer",{"steering_angle":-0.632,"throttle":0.2}]
+CTE: , 6.3217 , Next Steering Value: -0.63217
+42["steer",{"steering_angle":-0.63217,"throttle":0.2}]
+CTE: , 6.3242 , Next Steering Value: -0.63242
+42["steer",{"steering_angle":-0.63242,"throttle":0.2}]
+CTE: , 6.326 , Next Steering Value: -0.6326
+42["steer",{"steering_angle":-0.6326,"throttle":0.2}]
+CTE: , 6.3272 , Next Steering Value: -0.63272
+42["steer",{"steering_angle":-0.63272,"throttle":0.2}]
+CTE: , 6.3277 , Next Steering Value: -0.63277
+42["steer",{"steering_angle":-0.63277,"throttle":0.2}]
+CTE: , 6.3281 , Next Steering Value: -0.63281
+42["steer",{"steering_angle":-0.63281,"throttle":0.2}]
+CTE: , 6.3283 , Next Steering Value: -0.63283
+42["steer",{"steering_angle":-0.63283,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3283 , Next Steering Value: -0.63283
+42["steer",{"steering_angle":-0.63283,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3283 , Next Steering Value: -0.63283
+42["steer",{"steering_angle":-0.63283,"throttle":0.2}]
+CTE: , 6.3283 , Next Steering Value: -0.63283
+42["steer",{"steering_angle":-0.63283,"throttle":0.2}]
+CTE: , 6.3283 , Next Steering Value: -0.63283
+42["steer",{"steering_angle":-0.63283,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3286 , Next Steering Value: -0.63286
+42["steer",{"steering_angle":-0.63286,"throttle":0.2}]
+CTE: , 6.3286 , Next Steering Value: -0.63286
+42["steer",{"steering_angle":-0.63286,"throttle":0.2}]
+CTE: , 6.3286 , Next Steering Value: -0.63286
+42["steer",{"steering_angle":-0.63286,"throttle":0.2}]
+CTE: , 6.3286 , Next Steering Value: -0.63286
+42["steer",{"steering_angle":-0.63286,"throttle":0.2}]
+CTE: , 6.3286 , Next Steering Value: -0.63286
+42["steer",{"steering_angle":-0.63286,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3286 , Next Steering Value: -0.63286
+42["steer",{"steering_angle":-0.63286,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3286 , Next Steering Value: -0.63286
+42["steer",{"steering_angle":-0.63286,"throttle":0.2}]
+CTE: , 6.3286 , Next Steering Value: -0.63286
+42["steer",{"steering_angle":-0.63286,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3286 , Next Steering Value: -0.63286
+42["steer",{"steering_angle":-0.63286,"throttle":0.2}]
+CTE: , 6.3286 , Next Steering Value: -0.63286
+42["steer",{"steering_angle":-0.63286,"throttle":0.2}]
+CTE: , 6.3286 , Next Steering Value: -0.63286
+42["steer",{"steering_angle":-0.63286,"throttle":0.2}]
+CTE: , 6.3286 , Next Steering Value: -0.63286
+42["steer",{"steering_angle":-0.63286,"throttle":0.2}]
+CTE: , 6.3286 , Next Steering Value: -0.63286
+42["steer",{"steering_angle":-0.63286,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3286 , Next Steering Value: -0.63286
+42["steer",{"steering_angle":-0.63286,"throttle":0.2}]
+CTE: , 6.3286 , Next Steering Value: -0.63286
+42["steer",{"steering_angle":-0.63286,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3286 , Next Steering Value: -0.63286
+42["steer",{"steering_angle":-0.63286,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3286 , Next Steering Value: -0.63286
+42["steer",{"steering_angle":-0.63286,"throttle":0.2}]
+CTE: , 6.3286 , Next Steering Value: -0.63286
+42["steer",{"steering_angle":-0.63286,"throttle":0.2}]
+CTE: , 6.3286 , Next Steering Value: -0.63286
+42["steer",{"steering_angle":-0.63286,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3286 , Next Steering Value: -0.63286
+42["steer",{"steering_angle":-0.63286,"throttle":0.2}]
+CTE: , 6.3286 , Next Steering Value: -0.63286
+42["steer",{"steering_angle":-0.63286,"throttle":0.2}]
+CTE: , 6.3286 , Next Steering Value: -0.63286
+42["steer",{"steering_angle":-0.63286,"throttle":0.2}]
+CTE: , 6.3286 , Next Steering Value: -0.63286
+42["steer",{"steering_angle":-0.63286,"throttle":0.2}]
+CTE: , 6.3286 , Next Steering Value: -0.63286
+42["steer",{"steering_angle":-0.63286,"throttle":0.2}]
+CTE: , 6.3286 , Next Steering Value: -0.63286
+42["steer",{"steering_angle":-0.63286,"throttle":0.2}]
+CTE: , 6.3286 , Next Steering Value: -0.63286
+42["steer",{"steering_angle":-0.63286,"throttle":0.2}]
+CTE: , 6.3286 , Next Steering Value: -0.63286
+42["steer",{"steering_angle":-0.63286,"throttle":0.2}]
+CTE: , 6.3286 , Next Steering Value: -0.63286
+42["steer",{"steering_angle":-0.63286,"throttle":0.2}]
+CTE: , 6.3286 , Next Steering Value: -0.63286
+42["steer",{"steering_angle":-0.63286,"throttle":0.2}]
+CTE: , 6.3286 , Next Steering Value: -0.63286
+42["steer",{"steering_angle":-0.63286,"throttle":0.2}]
+CTE: , 6.3286 , Next Steering Value: -0.63286
+42["steer",{"steering_angle":-0.63286,"throttle":0.2}]
+CTE: , 6.3286 , Next Steering Value: -0.63286
+42["steer",{"steering_angle":-0.63286,"throttle":0.2}]
+CTE: , 6.3286 , Next Steering Value: -0.63286
+42["steer",{"steering_angle":-0.63286,"throttle":0.2}]
+CTE: , 6.3286 , Next Steering Value: -0.63286
+42["steer",{"steering_angle":-0.63286,"throttle":0.2}]
+CTE: , 6.3286 , Next Steering Value: -0.63286
+42["steer",{"steering_angle":-0.63286,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3286 , Next Steering Value: -0.63286
+42["steer",{"steering_angle":-0.63286,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3286 , Next Steering Value: -0.63286
+42["steer",{"steering_angle":-0.63286,"throttle":0.2}]
+CTE: , 6.3286 , Next Steering Value: -0.63286
+42["steer",{"steering_angle":-0.63286,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3286 , Next Steering Value: -0.63286
+42["steer",{"steering_angle":-0.63286,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3283 , Next Steering Value: -0.63283
+42["steer",{"steering_angle":-0.63283,"throttle":0.2}]
+CTE: , 6.3283 , Next Steering Value: -0.63283
+42["steer",{"steering_angle":-0.63283,"throttle":0.2}]
+CTE: , 6.3283 , Next Steering Value: -0.63283
+42["steer",{"steering_angle":-0.63283,"throttle":0.2}]
+CTE: , 6.3283 , Next Steering Value: -0.63283
+42["steer",{"steering_angle":-0.63283,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3286 , Next Steering Value: -0.63286
+42["steer",{"steering_angle":-0.63286,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3284 , Next Steering Value: -0.63284
+42["steer",{"steering_angle":-0.63284,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3286 , Next Steering Value: -0.63286
+42["steer",{"steering_angle":-0.63286,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
+CTE: , 6.3286 , Next Steering Value: -0.63286
+42["steer",{"steering_angle":-0.63286,"throttle":0.2}]
+CTE: , 6.3286 , Next Steering Value: -0.63286
+42["steer",{"steering_angle":-0.63286,"throttle":0.2}]
+CTE: , 6.3286 , Next Steering Value: -0.63286
+42["steer",{"steering_angle":-0.63286,"throttle":0.2}]
+CTE: , 6.3285 , Next Steering Value: -0.63285
+42["steer",{"steering_angle":-0.63285,"throttle":0.2}]
