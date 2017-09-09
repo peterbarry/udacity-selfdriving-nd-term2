@@ -1,4 +1,4 @@
-resulted# CarND-Controls-PID
+easilyeasily# CarND-Controls-PID
 Self-Driving Car Engineer Nanodegree Program
 
 
@@ -18,14 +18,18 @@ To verify the damping capability of the Differential value, a run with zero Diff
 
 ![Video with No differential value, ie - 0.0][video_no_diff]
 
-Integral Error:
+## Integral Error:
  Through experimental sweep of values, it did not appear as though there was any significant drift error in the simulator. I used a value of zero in the controller.
 
 
-Speed :
+## Speed :
  The speed of the vehicle  has a significant  impact on the performance of the PID controller. The faster the car the larger the updates in CTE received between samples. The pID model behaved very poorly as was not adaptive to these scenarios. The following video shows the car performance the vehicle throttle set to 0.5 vs 0.2 in the working example. The PID values had worked well at Throttle value of 0.2
 
 ![Video with PID running at 50Mph][video_run_too_fast]
+
+## Searching for PID values.
+
+  The simulator used does not easily support automation of searching for PID based on execution of the model. A suggestion would be to allow for the control of the simulator via the messaging interface. This would have facilitated the use of Twiddle or another scheme to search for the best values over a large number of runs. As a result, I used trial and error human searching which undoubtedly  has resulted in poor value selection.
 
 
 # Origional Udacity Readme.
