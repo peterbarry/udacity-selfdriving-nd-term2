@@ -1,5 +1,34 @@
-# CarND-Controls-PID
+resulted# CarND-Controls-PID
 Self-Driving Car Engineer Nanodegree Program
+
+
+[video_full_run]: ./output-examples/PID-Control-Full-lap-20mph.mov "Video"
+
+[video_no_diff]: ./output-examples/PID-1P-zeroI-zeroD-osc-and-crash.mov "Video"
+[video_run_too_fast]: ./output-examples/PID-Fast-run.mov "Video"
+
+For this project, we implemented a PID controller. We tuned the Proportional, Integral and Differential values.
+
+The Proportion value was first varied and resulted in a selected value of 0.2. Higher values caused the car to run off the track.
+
+The following is the video running at 20Mph
+![Full Video Run][video_full_run]
+
+To verify the damping capability of the Differential value, a run with zero Differential was carried out, it overshot and oscillated significantly. The following video shows the oscillations
+
+![Video with No differential value, ie - 0.0][video_no_diff]
+
+Integral Error:
+ Through experimental sweep of values, it did not appear as though there was any significant drift error in the simulator. I used a value of zero in the controller.
+
+
+Speed :
+ The speed of the vehicle  has a significant  impact on the performance of the PID controller. The faster the car the larger the updates in CTE received between samples. The pID model behaved very poorly as was not adaptive to these scenarios. The following video shows the car performance the vehicle throttle set to 0.5 vs 0.2 in the working example. The PID values had worked well at Throttle value of 0.2
+
+![Video with PID running at 50Mph][video_run_too_fast]
+
+
+# Origional Udacity Readme.
 
 ---
 
@@ -19,7 +48,7 @@ Self-Driving Car Engineer Nanodegree Program
   * Run either `./install-mac.sh` or `./install-ubuntu.sh`.
   * If you install from source, checkout to commit `e94b6e1`, i.e.
     ```
-    git clone https://github.com/uWebSockets/uWebSockets 
+    git clone https://github.com/uWebSockets/uWebSockets
     cd uWebSockets
     git checkout e94b6e1
     ```
@@ -33,7 +62,7 @@ There's an experimental patch for windows in this [PR](https://github.com/udacit
 1. Clone this repo.
 2. Make a build directory: `mkdir build && cd build`
 3. Compile: `cmake .. && make`
-4. Run it: `./pid`. 
+4. Run it: `./pid`.
 
 ## Editor Settings
 
@@ -93,4 +122,3 @@ still be compilable with cmake and make./
 
 ## How to write a README
 A well written README file can enhance your project and portfolio.  Develop your abilities to create professional README files by completing [this free course](https://www.udacity.com/course/writing-readmes--ud777).
-
