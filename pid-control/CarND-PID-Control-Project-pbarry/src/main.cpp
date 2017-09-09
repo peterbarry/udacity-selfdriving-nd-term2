@@ -102,14 +102,14 @@ int main()
           else if (totalError > 1.0)
             totalError = 1.0;
 
-          std::cout << "Old:CTE: " << cte << " Currnet Steering Value: " << angle << std::endl;
+          //std::cout << "Old:CTE: " << cte << " Currnet Steering Value: " << angle << std::endl;
 
 
           steer_value = totalError;
 
 
           // DEBUG
-          std::cout << "CTE: " << cte << " Next Steering Value: " << steer_value << std::endl;
+          std::cout << "CTE: , " << cte << " , Next Steering Value: " << steer_value << std::endl;
 
           json msgJson;
           msgJson["steering_angle"] = steer_value;
