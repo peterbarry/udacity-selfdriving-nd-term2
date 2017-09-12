@@ -84,6 +84,9 @@ int main() {
         auto j = json::parse(s);
         string event = j[0].get<string>();
         if (event == "telemetry") {
+          double steer_value ;
+          double throttle_value;
+
           // j[1] is the data JSON object
           vector<double> ptsx = j[1]["ptsx"];
           vector<double> ptsy = j[1]["ptsy"];
@@ -107,22 +110,27 @@ int main() {
             way_y[i] = ((delta_x * sin( -psi )) + (delta_y * cos( -psi )));
           }
 
-          /*
-          * TODO: Calculate steering angle and throttle using MPC.
-          *
-          * Both are in between [-1, 1].
-          *
-          */
-          double steer_value ;
-          double throttle_value;
+          // Calcuate the polyfit line for the waypoints relative to car.
+          auto coeffs = polyfit(way_x, way_y, 3);
+          double cte  = polyeval(coeffs, 0);  // relative to car so px=0
+          // epsi is -atan(coeffs1 + coeffs2*x + coeffs3* x^2)
+          double epsi = -atan(coeffs[1]); //TODO: Why 1 vs 0. ? if x = 0;
+
+
+          Eigen::VectorXd state(6);
+
+          state << 0, 0, 0, v, cte, epsi;  // x,y and angle = 0 as we conveted from global space.
+          auto solution = mpc.Solve(state, coeffs);
+          steer_value = solution[0];
+          throttle_value = solution[1];
 
 
 
           json msgJson;
           // NOTE: Remember to divide by deg2rad(25) before you send the steering value back.
           // Otherwise the values will be in between [-deg2rad(25), deg2rad(25] instead of [-1, 1].
-          msgJson["steering_angle"] = steer_value;
-          msgJson["throttle"] = throttle_value;
+          msgJson["steering_angle"] = -1 * steer_value/deg2rad(25);
+          msgJson["throttle"] =  0.1;//throttle_value;
 
           //Display the MPC predicted trajectory
           vector<double> mpc_x_vals;
