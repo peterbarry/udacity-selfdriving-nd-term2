@@ -23,7 +23,7 @@ const double Lf = 2.67;
 
 // Both the reference cross track and orientation errors are 0.
 // The reference velocity is set to 80 mph.
-double ref_v = 80;
+double ref_v = 20;
 
 // The solver takes all the state variables and actuator
 // variables in a singular vector. Thus, we should to establish
@@ -50,23 +50,37 @@ class FG_eval {
     // Any additions to the cost should be added to `fg[0]`.
     fg[0] = 0;
 
+    //*** This is the key tuning code, to get smooth operation at spped.
+    // Basic non scalled values results in violent oscilations.
+    // First tuning step, set speed statically and reduce steering osc.
+
+
     // The part of the cost based on the reference state.
     for (int t = 0; t < N; t++) {
+      // cross-track error.
       fg[0] += CppAD::pow(vars[cte_start + t], 2);
+      // Heading Error
       fg[0] += CppAD::pow(vars[epsi_start + t], 2);
+      // Velocity Error vs max target speed.
       fg[0] += CppAD::pow(vars[v_start + t] - ref_v, 2);
     }
 
     // Minimize the use of actuators.
     for (int t = 0; t < N - 1; t++) {
-      fg[0] += CppAD::pow(vars[delta_start + t], 2);
-      fg[0] += CppAD::pow(vars[a_start + t], 2);
+      //Smooth the actuation of the steering, mimimise the rate of change
+      fg[0] += 50 * CppAD::pow(vars[delta_start + t], 2);
+      //Smooth the actuaion of the accelerator
+      fg[0] += 50 * CppAD::pow(vars[a_start + t], 2);
+
+      // Add an extra cost for agressive steering at high speed
+      fg[0] += 0 *CppAD::pow(vars[delta_start + t] * vars[v_start+t], 2);
+
     }
 
     // Minimize the value gap between sequential actuations.
     for (int t = 0; t < N - 2; t++) {
-      fg[0] += CppAD::pow(vars[delta_start + t + 1] - vars[delta_start + t], 2);
-      fg[0] += CppAD::pow(vars[a_start + t + 1] - vars[a_start + t], 2);
+      fg[0] += 0  * CppAD::pow(vars[delta_start + t + 1] - vars[delta_start + t], 2);
+      fg[0] += 0 * CppAD::pow(vars[a_start + t + 1] - vars[a_start + t], 2);
     }
 
     //
