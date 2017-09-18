@@ -6,8 +6,8 @@
 using CppAD::AD;
 
 //  Set the timestep length and duration
-size_t N = 25; // Tuning
-double dt = 0.05; // Tuning
+size_t N = 10; // Tuning - 1 second ahead, seamed to cause erratic eorr for long tight curve.
+double dt = 0.1; // Tuning - 100ms
 
 // This value assumes the model presented in the classroom is used.
 //
@@ -23,7 +23,7 @@ const double Lf = 2.67;
 
 // Both the reference cross track and orientation errors are 0.
 // The reference velocity is set to 80 mph.
-double ref_v = 20;
+double ref_v = 40;
 
 // The solver takes all the state variables and actuator
 // variables in a singular vector. Thus, we should to establish
@@ -58,19 +58,23 @@ class FG_eval {
     // The part of the cost based on the reference state.
     for (int t = 0; t < N; t++) {
       // cross-track error.
-      fg[0] += CppAD::pow(vars[cte_start + t], 2);
+      fg[0] += 2000 * CppAD::pow(vars[cte_start + t], 2);
       // Heading Error
-      fg[0] += CppAD::pow(vars[epsi_start + t], 2);
+      fg[0] += 2000 * CppAD::pow(vars[epsi_start + t], 2);
       // Velocity Error vs max target speed.
-      fg[0] += CppAD::pow(vars[v_start + t] - ref_v, 2);
+      fg[0] += 1 * CppAD::pow(vars[v_start + t] - ref_v, 2);
+
+      // slow down if large error.
+      fg[0] += 0 *CppAD::pow(vars[cte_start + t] * vars[v_start+t], 2);
+
     }
 
     // Minimize the use of actuators.
     for (int t = 0; t < N - 1; t++) {
       //Smooth the actuation of the steering, mimimise the rate of change
-      fg[0] += 50 * CppAD::pow(vars[delta_start + t], 2);
+      fg[0] += 10 * CppAD::pow(vars[delta_start + t], 2);
       //Smooth the actuaion of the accelerator
-      fg[0] += 50 * CppAD::pow(vars[a_start + t], 2);
+      fg[0] += 10 * CppAD::pow(vars[a_start + t], 2);
 
       // Add an extra cost for agressive steering at high speed
       fg[0] += 0 *CppAD::pow(vars[delta_start + t] * vars[v_start+t], 2);
@@ -79,8 +83,8 @@ class FG_eval {
 
     // Minimize the value gap between sequential actuations.
     for (int t = 0; t < N - 2; t++) {
-      fg[0] += 0  * CppAD::pow(vars[delta_start + t + 1] - vars[delta_start + t], 2);
-      fg[0] += 0 * CppAD::pow(vars[a_start + t + 1] - vars[a_start + t], 2);
+      fg[0] += 100  * CppAD::pow(vars[delta_start + t + 1] - vars[delta_start + t], 2);
+      fg[0] += 10 * CppAD::pow(vars[a_start + t + 1] - vars[a_start + t], 2);
     }
 
     //

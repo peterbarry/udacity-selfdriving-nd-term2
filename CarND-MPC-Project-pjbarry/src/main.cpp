@@ -94,6 +94,8 @@ int main() {
           double py = j[1]["y"];
           double psi = j[1]["psi"];
           double v = j[1]["speed"];
+          double steering_angle = j[1]["steering_angle"];
+          double throttle_in = j[1]["throttle"];
 
           //Transform way points from global perspecitve to car relative.
           //cat at x=0, y=0, pointing straight.
@@ -102,7 +104,7 @@ int main() {
           Eigen::VectorXd   way_x(num_points);
           Eigen::VectorXd   way_y(num_points);
 
-          for (int i =0; i < ptsx.size() ; ++i )
+          for (int i =0; i < num_points ; ++i )
           {
             double delta_x = ptsx[i] - px;
             double delta_y = ptsy[i] - py;
@@ -114,12 +116,33 @@ int main() {
           auto coeffs = polyfit(way_x, way_y, 3);
           double cte  = polyeval(coeffs, 0);  // relative to car so px=0
           // epsi is -atan(coeffs1 + coeffs2*x + coeffs3* x^2)
-          double epsi = -atan(coeffs[1]); //TODO: Why 1 vs 0. ? if x = 0;
+          double epsi = -atan(coeffs[1]);
+
+
+          const double Lf = 2.67;
+
+          //Add latency for time when actuation occurs
+          // calculate  average time for solve and remove from call if significant.
+
+          const double latency = 0.1; // 100ms
+
+          double future_x = 0.0 + v * latency; // Along X plane.
+          double future_y = 0.0; //assume along path.
+          double future_psi = 0.0 + v * -steering_angle / Lf * latency;
+          double future_v = v + throttle_in * latency;
+          double future_cte = cte + v * sin(epsi) * latency;
+          double future_epsi = epsi + v * -steering_angle / Lf * latency;
 
 
           Eigen::VectorXd state(6);
 
-          state << 0, 0, 0, v, cte, epsi;  // x,y and angle = 0 as we conveted from global space.
+
+
+          //state << 0, 0, 0, v, cte, epsi;  // x,y and angle = 0 as we conveted from global space.
+          state << future_x, future_y, future_psi, future_v, future_cte, future_epsi;
+
+          cout << "STATE:" << state << endl << "********" << endl;
+
           auto solution = mpc.Solve(state, coeffs);
           steer_value = solution[0];
           throttle_value = solution[1];
@@ -129,7 +152,7 @@ int main() {
           json msgJson;
           // NOTE: Remember to divide by deg2rad(25) before you send the steering value back.
           // Otherwise the values will be in between [-deg2rad(25), deg2rad(25] instead of [-1, 1].
-          msgJson["steering_angle"] = -1 * steer_value/deg2rad(25);
+          msgJson["steering_angle"] = -1 * steer_value/(deg2rad(25) *Lf);
           msgJson["throttle"] = throttle_value;
 
           //Display the MPC predicted trajectory
@@ -138,6 +161,11 @@ int main() {
 
           //.. add (x,y) points to list here, points are in reference to the vehicle's coordinate system
           // the points in the simulator are connected by a Green line
+          for (double i = 0; i < 25; i += 5){
+            mpc_x_vals.push_back(i);
+            mpc_y_vals.push_back(polyeval(coeffs, i));
+          }
+          cout << "Coeffs:" << coeffs << endl;
 
           msgJson["mpc_x"] = mpc_x_vals;
           msgJson["mpc_y"] = mpc_y_vals;
