@@ -1,6 +1,104 @@
 # CarND-Controls-MPC
 Self-Driving Car Engineer Nanodegree Program
 
+## MPC Contoller
+Udacity Project 5 Term 2. The project involves developing a Model Predictive Controller. The controller receives way point information from the Udacity car simulator and proves steering and accelerator input.
+
+## Program Steps
+
+1.  Convert the waypoint inout from the simulator to car ego centric.
+2. Curve fit a line from the vehicle to waypoints.
+3. Calculate the state vecotr for optimizer based on predicted values at a later time. Predicted values
+    - X
+    - Y
+    - PSI,
+    - Velocity
+    - Cross Track Error
+    - Epsi - vehicle orientation.
+4. Solve to produce steering angle and accelerator using costs (see below)    
+5. Take output of solver and send to car simulator.
+
+## Costs
+
+The following costs were used to tune the are key to the performance of the system:
+
+The first cost : is the cross track error, striving to keep the vehicle close to the waypoints.
+```
+  // cross-track error.
+  fg[0] += 1000 * CppAD::pow(vars[cte_start + t], 2);
+```
+
+Cost to ensure vehile points in line with the waypoints.
+```
+  // Heading Error
+  fg[0] += 2000 * CppAD::pow(vars[epsi_start + t], 2);
+```
+
+The velocity error strives to increase the speed of the car.
+```
+  // Velocity Error vs max target speed.
+
+  fg[0] += 1 * CppAD::pow(vars[v_start + t] - ref_v, 2);
+```
+If the vehilces has a large cross track error slow down.
+```
+  // slow down if large error.
+  fg[0] += 0.5 * CppAD::pow(vars[cte_start + t] * vars[v_start+t], 2);
+```
+
+The following reduce the likelihood of very aggressive changes in steering or accelerator outputs over time.
+```
+  fg[0] += 1 * CppAD::pow(vars[delta_start + t], 2);
+  //Smooth the actuation of the accelerator
+  fg[0] += 100 * CppAD::pow(vars[a_start + t], 2);
+
+  // Add an extra cost for aggressive steering at high speed - unused
+  fg[0] += 0 *CppAD::pow(vars[delta_start + t] * vars[v_start+t], 2);
+```
+
+// Ensure that there are not large steps in actuation.
+```
+  fg[0] += 10  * CppAD::pow(vars[delta_start + t + 1] - vars[delta_start + t], 2);
+  fg[0] += 10 * CppAD::pow(vars[a_start + t + 1] - vars[a_start + t], 2);
+```
+
+
+## Timeline/Steps
+ A Delta T of 100ms and 10steps was used for the MPC. That value was tuned and found to be a good value. Initially a large number of steps was used but the execution time was very long 200ms. Given that I had not included this time in the future values predictions the system was very erratic (see lessons  below
+
+## Lessons
+The MPC was very difficult to tune at first, I found that the execution time of the MPC optimization algorithm ipopt took a significant  amount of time to provide a solution. In a 2015 macbook air, the algorithm took between 40 and 80ms. The converge time was longer at the aggressive turns portions of the track. This resulted in the predicted values for the car calculated to have significant error by the time the values were used post optimization for actuation. I added code that approximated the cost of the algorithm and add the time to the predicted variables of the vehicle, including actuation delays.
+
+## Curve Cutting.
+ In an effort to drive a more natural looking line, I modified the future predicted Y value depending on a very crude estimate  of the extent  of the forward road curvature.  The behavior is to "hug" the side of the road for an upcoming corner. The MPC costs and parameters were tuned with this enabled. The indication is simply the change in the y value 100points ahead. The y change is limited to +- 1.0 to stay on the track.
+
+ ```
+ double curve_indicator = polyeval(coeffs,100); // whats the value of y ahead./should be speed related
+
+ future_y -= curve_indicator/10; // shift to side of curve
+ if (future_y >= 1.0 )
+   future_y = 1.0;
+ if (future_y <= -1.0)
+   future_y = -1.0;
+
+ ```
+
+
+## Data received from simulator:
+
+* `ptsx` (Array<float>) - The global x positions of the waypoints.
+* `ptsy` (Array<float>) - The global y positions of the waypoints. This corresponds to the z coordinate in Unity
+since y is the up-down direction.
+* `psi` (float) - The orientation of the vehicle in **radians** converted from the Unity format to the standard format expected in most mathemetical functions
+* `psi_unity` (float) - The orientation of the vehicle in **radians**. This is an orientation commonly used in [navigation](https://en.wikipedia.org/wiki/Polar_coordinate_system#Position_and_navigation).
+* `x` (float) - The global x position of the vehicle.
+* `y` (float) - The global y position of the vehicle.
+* `steering_angle` (float) - The current steering angle in **radians**.
+* `throttle` (float) - The current throttle value [-1, 1].
+* `speed` (float) - The current velocity in **mph**.
+
+
+
 ---
 
 ## Dependencies
@@ -19,7 +117,7 @@ Self-Driving Car Engineer Nanodegree Program
   * Run either `install-mac.sh` or `install-ubuntu.sh`.
   * If you install from source, checkout to commit `e94b6e1`, i.e.
     ```
-    git clone https://github.com/uWebSockets/uWebSockets 
+    git clone https://github.com/uWebSockets/uWebSockets
     cd uWebSockets
     git checkout e94b6e1
     ```
@@ -43,7 +141,7 @@ Self-Driving Car Engineer Nanodegree Program
        per this [forum post](https://discussions.udacity.com/t/incorrect-checksum-for-freed-object/313433/19).
   * Linux
     * You will need a version of Ipopt 3.12.1 or higher. The version available through `apt-get` is 3.11.x. If you can get that version to work great but if not there's a script `install_ipopt.sh` that will install Ipopt. You just need to download the source from the Ipopt [releases page](https://www.coin-or.org/download/source/Ipopt/).
-    * Then call `install_ipopt.sh` with the source directory as the first argument, ex: `sudo bash install_ipopt.sh Ipopt-3.12.1`. 
+    * Then call `install_ipopt.sh` with the source directory as the first argument, ex: `sudo bash install_ipopt.sh Ipopt-3.12.1`.
   * Windows: TODO. If you can use the Linux subsystem and follow the Linux instructions.
 * [CppAD](https://www.coin-or.org/CppAD/)
   * Mac: `brew install cppad`
@@ -61,71 +159,3 @@ Self-Driving Car Engineer Nanodegree Program
 2. Make a build directory: `mkdir build && cd build`
 3. Compile: `cmake .. && make`
 4. Run it: `./mpc`.
-
-## Tips
-
-1. It's recommended to test the MPC on basic examples to see if your implementation behaves as desired. One possible example
-is the vehicle starting offset of a straight line (reference). If the MPC implementation is correct, after some number of timesteps
-(not too many) it should find and track the reference line.
-2. The `lake_track_waypoints.csv` file has the waypoints of the lake track. You could use this to fit polynomials and points and see of how well your model tracks curve. NOTE: This file might be not completely in sync with the simulator so your solution should NOT depend on it.
-3. For visualization this C++ [matplotlib wrapper](https://github.com/lava/matplotlib-cpp) could be helpful.
-
-## Editor Settings
-
-We've purposefully kept editor configuration files out of this repo in order to
-keep it as simple and environment agnostic as possible. However, we recommend
-using the following settings:
-
-* indent using spaces
-* set tab width to 2 spaces (keeps the matrices in source code aligned)
-
-## Code Style
-
-Please (do your best to) stick to [Google's C++ style guide](https://google.github.io/styleguide/cppguide.html).
-
-## Project Instructions and Rubric
-
-Note: regardless of the changes you make, your project must be buildable using
-cmake and make!
-
-More information is only accessible by people who are already enrolled in Term 2
-of CarND. If you are enrolled, see [the project page](https://classroom.udacity.com/nanodegrees/nd013/parts/40f38239-66b6-46ec-ae68-03afd8a601c8/modules/f1820894-8322-4bb3-81aa-b26b3c6dcbaf/lessons/b1ff3be0-c904-438e-aad3-2b5379f0e0c3/concepts/1a2255a0-e23c-44cf-8d41-39b8a3c8264a)
-for instructions and the project rubric.
-
-## Hints!
-
-* You don't have to follow this directory structure, but if you do, your work
-  will span all of the .cpp files here. Keep an eye out for TODOs.
-
-## Call for IDE Profiles Pull Requests
-
-Help your fellow students!
-
-We decided to create Makefiles with cmake to keep this project as platform
-agnostic as possible. Similarly, we omitted IDE profiles in order to we ensure
-that students don't feel pressured to use one IDE or another.
-
-However! I'd love to help people get up and running with their IDEs of choice.
-If you've created a profile for an IDE that you think other students would
-appreciate, we'd love to have you add the requisite profile files and
-instructions to ide_profiles/. For example if you wanted to add a VS Code
-profile, you'd add:
-
-* /ide_profiles/vscode/.vscode
-* /ide_profiles/vscode/README.md
-
-The README should explain what the profile does, how to take advantage of it,
-and how to install it.
-
-Frankly, I've never been involved in a project with multiple IDE profiles
-before. I believe the best way to handle this would be to keep them out of the
-repo root to avoid clutter. My expectation is that most profiles will include
-instructions to copy files to a new location to get picked up by the IDE, but
-that's just a guess.
-
-One last note here: regardless of the IDE used, every submitted project must
-still be compilable with cmake and make./
-
-## How to write a README
-A well written README file can enhance your project and portfolio.  Develop your abilities to create professional README files by completing [this free course](https://www.udacity.com/course/writing-readmes--ud777).
-
