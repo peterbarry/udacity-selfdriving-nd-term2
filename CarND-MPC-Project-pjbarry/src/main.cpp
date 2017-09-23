@@ -71,6 +71,9 @@ int main() {
   // MPC is initialized here!
   MPC mpc;
 
+
+  mpc.solveTime_ms = 50; // assume solve time takes about 50ms to start, but update on each cycle.
+
   h.onMessage([&mpc](uWS::WebSocket<uWS::SERVER> ws, char *data, size_t length,
                      uWS::OpCode opCode) {
     // "42" at the start of the message means there's a websocket message event.
@@ -86,6 +89,7 @@ int main() {
         if (event == "telemetry") {
           double steer_value ;
           double throttle_value;
+          int processing_delay=100;
 
           // j[1] is the data JSON object
           vector<double> ptsx = j[1]["ptsx"];
@@ -124,17 +128,40 @@ int main() {
           //Add latency for time when actuation occurs
           // calculate  average time for solve and remove from call if significant.
 
-          const double latency = 0.1; // 100ms
+
+          double latency = 0.1; // 100ms
+          // add the apprx time to solve cost function, to better predict future values.
+          latency += (double)mpc.solveTime_ms / 1000.0;
+
+
+          // The future calculations were borrowed from
+          //https://github.com/mvirgo/MPC-Project
 
           double future_x = 0.0 + v * latency; // Along X plane.
           double future_y = 0.0; //assume along path.
           double future_psi = 0.0 + v * -steering_angle / Lf * latency;
           double future_v = v + throttle_in * latency;
-          double future_cte = cte + v * sin(epsi) * latency;
+          double future_cte = (cte + v * sin(epsi) * latency);
           double future_epsi = epsi + v * -steering_angle / Lf * latency;
 
+          cout << "future_cte:" << future_cte << endl;
+          cout << "future_x:" << future_x << endl;
+
+          // Very crude attempt to cut corners
+          double curve_indicator = polyeval(coeffs,100); // whats the value of y ahead./should be speed related
+
+          future_y -= curve_indicator/10; // shift to side of curve
+
+          cout << "curve_indicator:" << curve_indicator << "future_y:" << future_y << endl;
+          if (future_y >= 1.0 )
+            future_y = 1.0;
+          if (future_y <= -1.0)
+            future_y = -1.0;
 
           Eigen::VectorXd state(6);
+
+          std::chrono::steady_clock::time_point begin = std::chrono::steady_clock::now();
+
 
 
 
@@ -147,12 +174,17 @@ int main() {
           steer_value = solution[0];
           throttle_value = solution[1];
 
+          std::chrono::steady_clock::time_point end= std::chrono::steady_clock::now();
+          std::cout << "Solve Time difference = " << std::chrono::duration_cast<std::chrono::milliseconds>(end - begin).count() << "ms" <<std::endl;
+          //std::cout << "Solve Time difference = " << std::chrono::duration_cast<std::chrono::microseconds>(end - begin).count() <<std::endl;
+          //std::cout << "Solve Time difference = " << std::chrono::duration_cast<std::chrono::nanoseconds> (end - begin).count() <<std::endl;
+          mpc.solveTime_ms = (double) std::chrono::duration_cast<std::chrono::milliseconds>(end - begin).count();
 
 
           json msgJson;
           // NOTE: Remember to divide by deg2rad(25) before you send the steering value back.
           // Otherwise the values will be in between [-deg2rad(25), deg2rad(25] instead of [-1, 1].
-          msgJson["steering_angle"] = -1 * steer_value/(deg2rad(25) *Lf);
+          msgJson["steering_angle"] = -1 * steer_value/(deg2rad(25)*Lf);
           msgJson["throttle"] = throttle_value;
 
           //Display the MPC predicted trajectory
@@ -161,9 +193,9 @@ int main() {
 
           //.. add (x,y) points to list here, points are in reference to the vehicle's coordinate system
           // the points in the simulator are connected by a Green line
-          for (double i = 0; i < 25; i += 5){
-            mpc_x_vals.push_back(i);
-            mpc_y_vals.push_back(polyeval(coeffs, i));
+          for (int i = 0; i < ptsx.size(); i += 1){
+            mpc_x_vals.push_back(way_x[i]);
+            mpc_y_vals.push_back(polyeval(coeffs, way_x[i]));
           }
           cout << "Coeffs:" << coeffs << endl;
 
@@ -198,7 +230,7 @@ int main() {
           //
           // NOTE: REMEMBER TO SET THIS TO 100 MILLISECONDS BEFORE
           // SUBMITTING.
-          this_thread::sleep_for(chrono::milliseconds(100));
+          this_thread::sleep_for(chrono::milliseconds(processing_delay));
           ws.send(msg.data(), msg.length(), uWS::OpCode::TEXT);
         }
       } else {
