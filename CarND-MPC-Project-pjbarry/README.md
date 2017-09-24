@@ -4,17 +4,30 @@ Self-Driving Car Engineer Nanodegree Program
 ## MPC Contoller
 Udacity Project 5 Term 2. The project involves developing a Model Predictive Controller. The controller receives way point information from the Udacity car simulator and proves steering and accelerator input.
 
+## Vehicle Model
+The project used a kinematic bicycle model. It does not comprehend any physical dynamics such as inertia, friction or torque. The model used for following equations.
+```
+double future_x = 0.0 + v * latency; // Along X plane, note: cos(orientation) = 1 in ego space, so not needed.
+double future_y = 0.0; //assume along path. Note: sin(orientation) = 0 , so term removed.
+double future_psi = 0.0 + v * -steering_angle / Lf * latency;
+double future_v = v + throttle_in * latency;
+double future_cte = (cte + v * sin(epsi) * latency);
+double future_epsi = epsi + v * -steering_angle / Lf * latency;
+
+```
+
+
 ## Program Steps
 
 1.  Convert the waypoint inout from the simulator to car ego centric.
 2. Curve fit a line from the vehicle to waypoints.
-3. Calculate the state vecotr for optimizer based on predicted values at a later time. Predicted values
+3. Calculate the state vector for optimizer based on predicted values at a later time. Predicted values
     - X
     - Y
-    - PSI,
+    - PSI - vehicle orientation.
     - Velocity
     - Cross Track Error
-    - Epsi - vehicle orientation.
+    - Epsi - vehicle orientation error.
 4. Solve to produce steering angle and accelerator using costs (see below)    
 5. Take output of solver and send to car simulator.
 
@@ -64,7 +77,12 @@ The following reduce the likelihood of very aggressive changes in steering or ac
 
 
 ## Timeline/Steps
- A Delta T of 100ms and 10steps was used for the MPC. That value was tuned and found to be a good value. Initially a large number of steps was used but the execution time was very long 200ms. Given that I had not included this time in the future values predictions the system was very erratic (see lessons  below
+ A Delta T of 100ms and 10steps was used for the MPC.
+ That results in a time horizon of 1Second ahead.
+
+ That value was tuned and found to be a good value. Initially a large number of steps was used but the execution time was very long 200ms. Given that I had not included this time in the future values predictions the system was very erratic (see lessons  below).
+
+ Extending the time horizon to 2 seconds should have resulted in a smooth path but the behavior was erratic at the corners. The solution time extended to up to 600ms on a macbook air, this reduced the time between updates at a critical point due to the computation expensive of solving the solution.
 
 ## Lessons
 The MPC was very difficult to tune at first, I found that the execution time of the MPC optimization algorithm ipopt took a significant  amount of time to provide a solution. In a 2015 macbook air, the algorithm took between 40 and 80ms. The converge time was longer at the aggressive turns portions of the track. This resulted in the predicted values for the car calculated to have significant error by the time the values were used post optimization for actuation. I added code that approximated the cost of the algorithm and add the time to the predicted variables of the vehicle, including actuation delays.
